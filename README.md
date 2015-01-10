@@ -2,3 +2,4 @@
 
 ## Domains:
 - pdostal.cz
+- blindtroll.com
