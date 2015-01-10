@@ -3,3 +3,4 @@
 ## Domains:
 - pdostal.cz
 - blindtroll.com
+- maserservis.cz
