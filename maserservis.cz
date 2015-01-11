@@ -1,5 +1,5 @@
 $TTL	3600
-	    86400	IN	SOA	  ns1.pdostal.cz. zonemaster.pdostal.cz. (
+@	    86400	IN	SOA	  ns1.pdostal.cz. zonemaster.pdostal.cz. (
                       2014053206
                       7200
                       540
