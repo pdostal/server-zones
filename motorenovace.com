@@ -16,3 +16,6 @@ $TTL	3600
       3600	IN	AAAA	2a01:430:17:1::ffff:554
 
 www	  3600	IN	CNAME	motorenovace.com.
+
+dlv   0     IN  TXT   "DLV:1:mnunbevlneot"
+dlv   0     IN  TXT   "DLV:1:wswtsuiuqbxf"
