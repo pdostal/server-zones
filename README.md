@@ -5,3 +5,4 @@
 - blindtroll.com
 - maserservis.cz
 - motorenovace.com
+- truhlarstvitaticek.cz
