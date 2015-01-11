@@ -1,6 +1,6 @@
 $TTL	3600
 @	    86400	IN	SOA	  ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                      2014053206
+                      2015011101
                       7200
                       540
                       604800
@@ -17,5 +17,5 @@ $TTL	3600
 
 www	  3600	IN	CNAME	motorenovace.com.
 
-dlv   0     IN  TXT   "DLV:1:mnunbevlneot"
-dlv   0     IN  TXT   "DLV:1:wswtsuiuqbxf"
+dlv   3600  IN  TXT   "DLV:1:mnunbevlneot"
+      3600  IN  TXT   "DLV:1:wswtsuiuqbxf"
