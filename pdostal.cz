@@ -76,3 +76,4 @@ tmp								3600  IN  CNAME pdostal.cz.
 trandir						3600  IN  CNAME pdostal.cz.
 vpn								3600  IN  CNAME pdostal.cz.
 watchlog					3600  IN  CNAME pdostal.cz.
+wordpress					3600  IN  CNAME pdostal.cz.
