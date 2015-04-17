@@ -67,6 +67,17 @@ lsd								3600  IN  A     104.236.58.204
 ipv4.lsd					3600  IN  A 		104.236.58.204
 ipv6.lsd					3600  IN  AAAA  2604:a880:800:10::56c:c001
 
+sorrel						3600  IN  A			46.101.174.83
+									3600  IN  AAAA	2a03:b0c0:3:d0::22:1
+									3600	IN	SSHFP	3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
+									3600	IN	SSHFP	3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
+									3600	IN	SSHFP	2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
+									3600	IN	SSHFP	2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
+									3600	IN	SSHFP	1 1 6232735c6f5af2c0a642a761e11dd85d90322736
+									3600	IN	SSHFP	1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
+ipv4.sorrel				3600  IN  A			46.101.174.83
+ipv6.sorrel				3600  IN  AAAA	2a03:b0c0:3:d0::22:1
+
 home							3600  IN  A     212.4.143.171
 
 www								3600  IN  CNAME pdostal.cz.
