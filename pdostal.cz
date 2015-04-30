@@ -56,16 +56,18 @@ shark             3600  IN  A     178.62.27.22
 ipv4.shark        3600  IN  A     178.62.27.22
 ipv6.shark        3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
 
-lsd               3600  IN  A     104.236.58.204
-                  3600  IN  AAAA  2604:a880:800:10::56c:c001
-                  3600  IN  SSHFP 3 1 33f7c84bcce83f43073918050a889e208422e0f2
-                  3600  IN  SSHFP 3 2 fb6b4725cb7355563c9a33baff50ced529ebc9a1062a09fbb09992e3c51209d5
-                  3600  IN  SSHFP 2 1 d812f84ba075398af037823f0d8c6ea67d6b6b5a
-                  3600  IN  SSHFP 2 2 c16052e49a34ea03b8f33da7132a09a03d605a3044525e65c50660c6388d632c
-                  3600  IN  SSHFP 1 1 46ea4553fc4e95e66be255a4a89faf5e88e2a8cf
-                  3600  IN  SSHFP 1 2 54c4f2aae8209a41275718b3ae2362bcc0027bccd0a62deec7c489a58048a6f4
-ipv4.lsd          3600  IN  A     104.236.58.204
-ipv6.lsd          3600  IN  AAAA  2604:a880:800:10::56c:c001
+rhubarb           3600  IN  A     178.62.121.169
+                  3600  IN  AAAA  2a03:b0c0:1:d0::92:1
+                  3600  IN  SSHFP 2 1 8e98b3b139806cf91da0ecd4568a656ec5eff8b9
+                  3600  IN  SSHFP 2 2 46cae98287e332cec7539e0488b31ead08690ead92df0106a495a81290cb1e52
+                  3600  IN  SSHFP 3 1 d8d054483c9967e8be77145c410dcf8b197ef5b2
+                  3600  IN  SSHFP 3 2 39ca09e5e37e7aa8aaa8a823ca383a698750ca427d8689fa886b64ec2d62f82b
+                  3600  IN  SSHFP 4 1 cad194085d01d4eee1e37c8b1d1778fb4c6b03d8
+                  3600  IN  SSHFP 4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
+                  3600  IN  SSHFP 1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
+                  3600  IN  SSHFP 1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
+ipv4.rhubarb      3600  IN  A     178.62.121.169
+ipv6.rhubarb      3600  IN  AAAA  2a03:b0c0:1:d0::92:1
 
 sorrel            3600  IN  A      46.101.174.83
                   3600  IN  AAAA   2a03:b0c0:3:d0::22:1
