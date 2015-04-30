@@ -1,40 +1,40 @@
-$TTL							3600
-@									86400 IN  SOA		ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                                  2015042903
-                                  7200
-                                  540
-                                  604800
-                                  86400 )
+$TTL              3600
+@                 86400 IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
+                                    2015042903
+                                    7200
+                                    540
+                                    604800
+                                    86400 )
 
-                  86400 IN  NS  	ns1.pdostal.cz.
-                  86400 IN  NS  	ns2.pdostal.cz.
+                  86400 IN  NS    ns1.pdostal.cz.
+                  86400 IN  NS    ns2.pdostal.cz.
 
-                  3600  IN  MX  	10 mx1.pdostal.cz.
-                  3600  IN  MX  	20 mx2.pdostal.cz.
+                  3600  IN  MX    10 mx1.pdostal.cz.
+                  3600  IN  MX    20 mx2.pdostal.cz.
 
-                  3699  IN  A 		37.205.10.143
+                  3699  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
 
-                  3600  IN  TXT 	"keybase-site-verification=mfWub9YjzmjqL4WQZXWqm3AFB2z1OLTeAuuGHMdaYxc"
-                  3600  IN  SPF 	"v=spf1 +mx ~all"
-dlv								3600  IN  TXT 	"DLV:1:kusgcinpdxzb"
-                  3600  IN  TXT 	"DLV:1:wuyrzuefrxlb"
-_dmarc						3600  IN  TXT 	"v=DMARC1; p=reject; adkim=s; aspf=s"
-_adsp._domainkey	3600  IN  TXT 	"dkim=all"
-mail._domainkey		3600  IN  TXT 	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
+                  3600  IN  TXT   "keybase-site-verification=mfWub9YjzmjqL4WQZXWqm3AFB2z1OLTeAuuGHMdaYxc"
+                  3600  IN  SPF   "v=spf1 +mx ~all"
+lv                3600  IN  TXT   "DLV:1:kusgcinpdxzb"
+                  3600  IN  TXT   "DLV:1:wuyrzuefrxlb"
+_dmarc            3600  IN  TXT   "v=DMARC1; p=reject; adkim=s; aspf=s"
+_adsp._domainkey  3600  IN  TXT   "dkim=all"
+mail._domainkey   3600  IN  TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
 
-ns1								3600  IN  A 		37.205.10.143
+ns1               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
-ns2								3600  IN  A 		178.62.27.22
+ns2               3600  IN  A     178.62.27.22
                   3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
-mx1								3600  IN  A 		37.205.10.143
+mx1               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
-mx2								3600  IN  A 		178.62.27.22
+mx2               3600  IN  A     178.62.27.22
                   3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
-ipv4							3600  IN  A 		178.62.27.22
-ipv6							3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
+ipv4              3600  IN  A     178.62.27.22
+ipv6              3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
 
-vps								3600  IN  A 		37.205.10.143
+vps               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
                   3600  IN  SSHFP 1 1 74DF330B6D1F565910670057022C930ED3CCE457
                   3600  IN  SSHFP 1 2 16742D815B45699EF97913A30F26448E434B0C74AFB7C24CB5E640061069469A
@@ -42,10 +42,10 @@ vps								3600  IN  A 		37.205.10.143
                   3600  IN  SSHFP 2 2 4A90772F09703C725907E88522D9394716FB794B9F30D129586EA0D326D5B33E
                   3600  IN  SSHFP 3 1 0C8CD26075DEB24BABA2778CC33CBF4F31B246F3
                   3600  IN  SSHFP 3 2 A31FFC36ECA98437A18EF96C1B5051B19E7AF5B14C62582AC88FCD313ACEC937
-ipv4.vps					3600  IN  A 		37.205.10.143
-ipv6.vps					3600  IN  AAAA  2a01:430:17:1::ffff:554
+ipv4.vps          3600  IN  A     37.205.10.143
+ipv6.vps          3600  IN  AAAA  2a01:430:17:1::ffff:554
 
-shark							3600  IN  A     178.62.27.22
+shark             3600  IN  A     178.62.27.22
                   3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
                   3600  IN  SSHFP 1 1 C9A2B8E7009E663FED2511B149B40328AB064AF6
                   3600  IN  SSHFP 1 2 794AB38371016D28A61AB35313901058FA2EBDCB49B2FE9E6EB9C5B3CC99567A
@@ -53,40 +53,40 @@ shark							3600  IN  A     178.62.27.22
                   3600  IN  SSHFP 2 2 00A2DCED8AC469F770297A78A93270610E7B9C6527DE899BF545FB47677B6833
                   3600  IN  SSHFP 3 1 426508137B257146E3EA16849018C6E61FD4A371
                   3600  IN  SSHFP 3 2 4B6B0D48322F9F7324F695875080EACA8EE3F342FCE63945360CE52039243ED9
-ipv4.shark				3600  IN  A 		178.62.27.22
-ipv6.shark				3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
+ipv4.shark        3600  IN  A     178.62.27.22
+ipv6.shark        3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
 
-lsd								3600  IN  A     104.236.58.204
+lsd               3600  IN  A     104.236.58.204
                   3600  IN  AAAA  2604:a880:800:10::56c:c001
-                  3600  IN	SSHFP 3 1 33f7c84bcce83f43073918050a889e208422e0f2
+                  3600  IN  SSHFP 3 1 33f7c84bcce83f43073918050a889e208422e0f2
                   3600  IN  SSHFP 3 2 fb6b4725cb7355563c9a33baff50ced529ebc9a1062a09fbb09992e3c51209d5
                   3600  IN  SSHFP 2 1 d812f84ba075398af037823f0d8c6ea67d6b6b5a
                   3600  IN  SSHFP 2 2 c16052e49a34ea03b8f33da7132a09a03d605a3044525e65c50660c6388d632c
                   3600  IN  SSHFP 1 1 46ea4553fc4e95e66be255a4a89faf5e88e2a8cf
                   3600  IN  SSHFP 1 2 54c4f2aae8209a41275718b3ae2362bcc0027bccd0a62deec7c489a58048a6f4
-ipv4.lsd					3600  IN  A 		104.236.58.204
-ipv6.lsd					3600  IN  AAAA  2604:a880:800:10::56c:c001
+ipv4.lsd          3600  IN  A     104.236.58.204
+ipv6.lsd          3600  IN  AAAA  2604:a880:800:10::56c:c001
 
-sorrel						3600  IN  A			46.101.174.83
-                  3600  IN  AAAA	2a03:b0c0:3:d0::22:1
-                  3600	IN	SSHFP	3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
-                  3600	IN	SSHFP	3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
-                  3600	IN	SSHFP	2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
-                  3600	IN	SSHFP	2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
-                  3600	IN	SSHFP	1 1 6232735c6f5af2c0a642a761e11dd85d90322736
-                  3600	IN	SSHFP	1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
-ipv4.sorrel				3600  IN  A			46.101.174.83
-ipv6.sorrel				3600  IN  AAAA	2a03:b0c0:3:d0::22:1
-he6.sorrel				3600 	IN	AAAA	2001:470:1f0a:ec8::2
+sorrel            3600  IN  A      46.101.174.83
+                  3600  IN  AAAA   2a03:b0c0:3:d0::22:1
+                  3600  IN  SSHFP  3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
+                  3600  IN  SSHFP  3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
+                  3600  IN  SSHFP  2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
+                  3600  IN  SSHFP  2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
+                  3600  IN  SSHFP  1 1 6232735c6f5af2c0a642a761e11dd85d90322736
+                  3600  IN  SSHFP  1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
+ipv4.sorrel       3600  IN  A      46.101.174.83
+ipv6.sorrel       3600  IN  AAAA   2a03:b0c0:3:d0::22:1
+he6.sorrel        3600  IN  AAAA   2001:470:1f0a:ec8::2
 
-home							3600  IN  A     212.4.143.171
-                  3600	IN	AAAA	2002:d404:8fab::1
+home              3600  IN  A      212.4.143.171
+                  3600  IN  AAAA   2002:d404:8fab::1
 
-www								3600  IN  CNAME pdostal.cz.
-external					3600  IN  CNAME pdostal.cz.
-global						3600  IN  CNAME pdostal.cz.
-tmp								3600  IN  CNAME pdostal.cz.
-trandir						3600  IN  CNAME pdostal.cz.
-vpn								3600  IN  CNAME pdostal.cz.
-watchlog					3600  IN  CNAME pdostal.cz.
-wordpress					3600  IN  CNAME pdostal.cz.
+www               3600  IN  CNAME  pdostal.cz.
+external          3600  IN  CNAME  pdostal.cz.
+global            3600  IN  CNAME  pdostal.cz.
+tmp               3600  IN  CNAME  pdostal.cz.
+trandir           3600  IN  CNAME  pdostal.cz.
+vpn               3600  IN  CNAME  pdostal.cz.
+watchlog          3600  IN  CNAME  pdostal.cz.
+wordpress         3600  IN  CNAME  pdostal.cz.
