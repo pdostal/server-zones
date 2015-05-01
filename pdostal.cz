@@ -17,6 +17,7 @@ $TTL              3600
 
                   3600  IN  TXT   "keybase-site-verification=mfWub9YjzmjqL4WQZXWqm3AFB2z1OLTeAuuGHMdaYxc"
                   3600  IN  SPF   "v=spf1 +mx ~all"
+                  3600  IN  TXT   "keybase-site-verification=4WtCQwjEvZgLhtJotadh-6_qBbXelqHVlWCteYRKy7A"
 lv                3600  IN  TXT   "DLV:1:kusgcinpdxzb"
                   3600  IN  TXT   "DLV:1:wuyrzuefrxlb"
 _dmarc            3600  IN  TXT   "v=DMARC1; p=reject; adkim=s; aspf=s"
