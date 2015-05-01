@@ -1,6 +1,6 @@
 $TTL        3600
-@                 IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                              2015050103
+@           3600  IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
+                              2015050105
                               3600
                               900
                               1814400
