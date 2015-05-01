@@ -1,6 +1,6 @@
 $TTL              3600
 @                 3600  IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015050108
+                                    2015050110
                                     3600
                                     900
                                     1814400
@@ -83,6 +83,8 @@ he6.sorrel        3600  IN  AAAA   2001:470:1f0a:ec8::2
 
 home              3600  IN  A      212.4.143.171
                   3600  IN  AAAA   2002:d404:8fab::1
+
+gr                3600  IN  A      88.102.184.51
 
 www               3600  IN  CNAME  pdostal.cz.
 external          3600  IN  CNAME  pdostal.cz.
