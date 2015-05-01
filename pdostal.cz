@@ -1,10 +1,10 @@
-$TTL            	3600
-@	                86400	IN	SOA	  ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015042901
-                                    7200
-                                    540
-                                    604800
-                                    86400 )
+$TTL              3600
+@                 3600  IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
+                                    2015050108
+                                    3600
+                                    900
+                                    1814400
+                                    900 )
 
                   86400 IN  NS    ns1.pdostal.cz.
                   86400 IN  NS    ns2.pdostal.cz.
