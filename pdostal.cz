@@ -1,6 +1,6 @@
 $TTL              3600
 @                 3600  IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015050110
+                                    2015050201
                                     3600
                                     900
                                     1814400
@@ -55,6 +55,17 @@ shark             3600  IN  A     178.62.27.22
                   3600  IN  SSHFP 3 2 4B6B0D48322F9F7324F695875080EACA8EE3F342FCE63945360CE52039243ED9
 ipv4.shark        3600  IN  A     178.62.27.22
 ipv6.shark        3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
+
+cucumber          3600  IN  A     104.236.58.204
+                  3600  IN  AAAA  2604:a880:800:10::56c:c001
+                  3600  IN  SSHFP 2 1 7380992eef384859c15678e8407146a99857434b
+                  3600  IN  SSHFP 2 2 69970776b584bfc07745b858033cbd0af54cce94ca5cce42159d2066656e0f5a
+                  3600  IN  SSHFP 3 1 e592e9300de15ccf1bb524282e9595c26e6ea3f2
+                  3600  IN  SSHFP 3 2 f595339a64bb46c6ac5b12b2b90914e0b4637a2c6fb3f30df697ee18f1e69396
+                  3600  IN  SSHFP 1 1 2e31d6cd982ed035ce4a45c29c762176dfadc90b
+                  3600  IN  SSHFP 1 2 444c1f496db47f0fe9fffec4b48211df264a13153cc09236765f7b46996c988d
+ipv4.cucumber     3600  IN  A     104.236.58.204
+ipv6.cucumber     3600  IN  AAAA  2604:a880:800:10::56c:c001
 
 rhubarb           3600  IN  A     178.62.121.169
                   3600  IN  AAAA  2a03:b0c0:1:d0::92:1
