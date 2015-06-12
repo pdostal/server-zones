@@ -1,14 +1,14 @@
 $TTL              3600
 @                 3600  IN  SOA   cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015061206
+                                    2015061208
                                     3600
                                     900
                                     1814400
                                     900 )
 
-                  86400 IN  NS    sorrel.pdostal.cz.
-                  86400 IN  NS    rhubarb.pdostal.cz.
                   86400 IN  NS    cucumber.pdostal.cz.
+                  86400 IN  NS    rhubarb.pdostal.cz.
+                  86400 IN  NS    sorrel.pdostal.cz.
 
                   3600  IN  MX    10 mx1.pdostal.cz.
                   3600  IN  MX    20 mx2.pdostal.cz.
@@ -26,8 +26,6 @@ mx1               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
 mx2               3600  IN  A     178.62.27.22
                   3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
-ipv4              3600  IN  A     178.62.27.22
-ipv6              3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
 
 vps               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
@@ -51,8 +49,8 @@ shark             3600  IN  A     178.62.27.22
 ipv4.shark        3600  IN  A     178.62.27.22
 ipv6.shark        3600  IN  AAAA  2a03:b0c0:1:d0::7f:8001
 
-cucumber          3600  IN  A     46.101.158.52
-                  3600  IN  AAAA  2a03:b0c0:3:d0::126:e001
+cucumber          3600  IN  AAAA  2a03:b0c0:3:d0::126:e001
+                  3600  IN  A     46.101.158.52
                   3600  IN  SSHFP 2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
                   3600  IN  SSHFP 2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
                   3600  IN  SSHFP 3 1 5f2b5b57564174e01657404371835ca76e19d214
@@ -64,8 +62,8 @@ cucumber          3600  IN  A     46.101.158.52
 ipv4.cucumber     3600  IN  A     46.101.158.52
 ipv6.cucumber     3600  IN  AAAA  2a03:b0c0:3:d0::126:e001
 
-rhubarb           3600  IN  A     178.62.121.169
-                  3600  IN  AAAA  2a03:b0c0:1:d0::92:1
+rhubarb           3600  IN  AAAA  2a03:b0c0:1:d0::92:1
+                  3600  IN  A     178.62.121.169
                   3600  IN  SSHFP 2 1 8e98b3b139806cf91da0ecd4568a656ec5eff8b9
                   3600  IN  SSHFP 2 2 46cae98287e332cec7539e0488b31ead08690ead92df0106a495a81290cb1e52
                   3600  IN  SSHFP 3 1 d8d054483c9967e8be77145c410dcf8b197ef5b2
@@ -77,8 +75,8 @@ rhubarb           3600  IN  A     178.62.121.169
 ipv4.rhubarb      3600  IN  A     178.62.121.169
 ipv6.rhubarb      3600  IN  AAAA  2a03:b0c0:1:d0::92:1
 
-sorrel            3600  IN  A      46.101.174.83
-                  3600  IN  AAAA   2a03:b0c0:3:d0::22:1
+sorrel            3600  IN  AAAA   2a03:b0c0:3:d0::22:1
+                  3600  IN  A      46.101.174.83
                   3600  IN  SSHFP  3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
                   3600  IN  SSHFP  3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
                   3600  IN  SSHFP  2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
@@ -87,13 +85,12 @@ sorrel            3600  IN  A      46.101.174.83
                   3600  IN  SSHFP  1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
 ipv4.sorrel       3600  IN  A      46.101.174.83
 ipv6.sorrel       3600  IN  AAAA   2a03:b0c0:3:d0::22:1
-he6.sorrel        3600  IN  AAAA   2001:470:1f0a:ec8::2
 
-home              3600  IN  A      212.4.143.171
-                  3600  IN  AAAA   2002:d404:8fab::1
+home              3600  IN  AAAA   2002:d404:8fab::1
+                  3600  IN  A      212.4.143.171
 
-gr                3600  IN  A      88.102.184.51
 gr                3600  IN  AAAA   2A00:1028:8382:990A::1
+                  3600  IN  A      88.102.184.51
 
 www               3600  IN  CNAME  pdostal.cz.
 external          3600  IN  CNAME  pdostal.cz.
