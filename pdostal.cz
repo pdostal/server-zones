@@ -1,14 +1,14 @@
 $TTL              3600
-@                 3600  IN  SOA   ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015061204
+@                 3600  IN  SOA   cucumber.pdostal.cz. zonemaster.pdostal.cz. (
+                                    2015061206
                                     3600
                                     900
                                     1814400
                                     900 )
 
-                  86400 IN  NS    ns1.pdostal.cz.
-                  86400 IN  NS    ns2.pdostal.cz.
-                  86400 IN  NS    ns3.pdostal.cz.
+                  86400 IN  NS    sorrel.pdostal.cz.
+                  86400 IN  NS    rhubarb.pdostal.cz.
+                  86400 IN  NS    cucumber.pdostal.cz.
 
                   3600  IN  MX    10 mx1.pdostal.cz.
                   3600  IN  MX    20 mx2.pdostal.cz.
@@ -22,12 +22,6 @@ _dmarc            3600  IN  TXT   "v=DMARC1; p=reject; adkim=s; aspf=s"
 _adsp._domainkey  3600  IN  TXT   "dkim=all"
 mail._domainkey   3600  IN  TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
 
-ns1               3600  IN  A     46.101.174.83
-                  3600  IN  AAAA  2a03:b0c0:3:d0::22:1
-ns2               3600  IN  A     178.62.121.169
-                  3600  IN  AAAA  2a03:b0c0:1:d0::92:1
-ns3               3600  IN  A     46.101.158.52
-                  3600  IN  AAAA  2a03:b0c0:3:d0::126:e001
 mx1               3600  IN  A     37.205.10.143
                   3600  IN  AAAA  2a01:430:17:1::ffff:554
 mx2               3600  IN  A     178.62.27.22

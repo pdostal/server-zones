@@ -1,13 +1,14 @@
 $TTL	3600
-@	    86400	IN	SOA	  ns1.pdostal.cz. zonemaster.pdostal.cz. (
-                      2015042901
+@	    86400	IN	SOA	  cucumber.pdostal.cz. zonemaster.pdostal.cz. (
+                      2015061201
                       7200
                       540
                       604800
                       86400 )
 
-      86400	IN  NS    ns1.pdostal.cz.
-      86400	IN  NS	  ns2.pdostal.cz.
+      86400	IN  NS    cucumber.pdostal.cz.
+      86400	IN  NS	  rhubarb.pdostal.cz.
+      86400	IN  NS	  sorrel.pdostal.cz.
 
       3600	IN	MX	  10 mx1.pdostal.cz.
       3600	IN	MX   	20 mx2.pdostal.cz.
