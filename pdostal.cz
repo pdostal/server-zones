@@ -1,6 +1,6 @@
 $TTL              3600
 @                 3600  IN  SOA   cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015061208
+                                    2015061301
                                     3600
                                     900
                                     1814400
@@ -100,3 +100,9 @@ trandir           3600  IN  CNAME  pdostal.cz.
 vpn               3600  IN  CNAME  pdostal.cz.
 watchlog          3600  IN  CNAME  pdostal.cz.
 wordpress         3600  IN  CNAME  pdostal.cz.
+
+cucumber.vpn      3600	IN  A      172.127.127.1
+rhubarb.vpn       3600	IN  A      172.127.127.2
+sorrel.vpn        3600	IN  A      172.127.127.3
+gr.vpn            3600	IN  A      172.127.127.4
+home.vpn          3600	IN  A      172.127.127.5
