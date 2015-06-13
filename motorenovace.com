@@ -1,6 +1,6 @@
 $TTL	3600
 @	    86400	IN	SOA	  cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                      2015061201
+                      2015061301
                       7200
                       540
                       604800
@@ -17,6 +17,3 @@ $TTL	3600
       3600	IN	AAAA	2a01:430:17:1::ffff:554
 
 www	  3600	IN	CNAME	motorenovace.com.
-
-dlv   3600  IN  TXT   "DLV:1:mnunbevlneot"
-      3600  IN  TXT   "DLV:1:wswtsuiuqbxf"
