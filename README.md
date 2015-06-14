@@ -8,3 +8,5 @@ Cloned in master
 
 ## Networks:
 - 127.127.172.in-addr.arpa
+- 31.31.172.in-addr.arpa
+- 24.24.172.in-addr.arpa
