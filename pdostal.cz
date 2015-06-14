@@ -1,6 +1,6 @@
 $TTL              3600
 @                 3600  IN  SOA   cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                    2015061301
+                                    2015061401
                                     3600
                                     900
                                     1814400
@@ -106,3 +106,23 @@ rhubarb.vpn       3600	IN  A      172.127.127.2
 sorrel.vpn        3600	IN  A      172.127.127.3
 gr.vpn            3600	IN  A      172.127.127.4
 home.vpn          3600	IN  A      172.127.127.5
+
+gr.gr             3600	IN  A      172.24.24.1
+storage.gr        3600	IN  A      172.24.24.2
+phone.gr          3600	IN  A      172.24.24.3
+rpi.gr            3600	IN  A      172.24.24.4
+pauls-macbook.gr  3600	IN  A      172.24.24.21
+pauls-iphone.gr   3600	IN  A      172.24.24.22
+pauls-ipad.gr     3600	IN  A      172.24.24.23
+jarda-pc.gr       3600	IN  A      172.24.24.24
+jarda-mbp.gr      3600	IN  A      172.24.24.25
+jarda-ipad.gr     3600	IN  A      172.24.24.26
+zdenek-iphone.gr  3600	IN  A      172.24.24.27
+zdenek-hp.gr      3600	IN  A      172.24.24.28
+
+home.home                   3600	IN  A      172.24.24.1
+RIPE-Atlas-Probe-19316.home 3600	IN  A      172.24.24.2
+philips-hue.home            3600	IN  A      172.24.24.3
+pauls-macbook.home          3600	IN  A      172.24.24.21
+pauls-iphone.home           3600	IN  A      172.24.24.22
+pauls-ipad.home             3600	IN  A      172.24.24.23
