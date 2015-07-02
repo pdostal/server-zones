@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015070201
+                                        2015070203
                                         3600
                                         900
                                         1814400
@@ -104,12 +104,10 @@ ipv6.home           3600  IN  AAAA    2002:d404:8fab::1
 ipv4.home           3600  IN  A       212.4.143.171
 
 www                 3600  IN  CNAME   pdostal.cz.
-external            3600  IN  CNAME   pdostal.cz.
-global              3600  IN  CNAME   pdostal.cz.
-tmp                 3600  IN  CNAME   pdostal.cz.
-trandir             3600  IN  CNAME   pdostal.cz.
-watchlog            3600  IN  CNAME   pdostal.cz.
-wordpress           3600  IN  CNAME   pdostal.cz.
+external            3600  IN  CNAME   sorrel.pdostal.cz.
+global              3600  IN  CNAME   sorrel.pdostal.cz.
+tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
+trandir             3600  IN  CNAME   sorrel.pdostal.cz.
 
 cucumber.vpn        3600	IN  A       172.127.127.1
                     3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
