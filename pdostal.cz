@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015070203
+                                        2015070501
                                         3600
                                         900
                                         1814400
@@ -14,36 +14,21 @@ $TTL                3600
                     3600  IN  MX      20 cucumber.pdostal.cz.
                     3600  IN  MX      30 sorrel.pdostal.cz.
 
-                    3699  IN  A       37.205.10.143
-                    3600  IN  AAAA    2a01:430:17:1::ffff:554
+                    3600  IN  AAAA    2a03:b0c0:3:d0::22:1
+                    3600  IN  A       46.101.174.83
+
+                    3600  IN  TXT     "keybase-site-verification=djhuxmwVR_UMrQ6zCFpB2oGgMZCZvsFbcRTA9OG5_30"
 
                     3600  IN  SPF     "v=spf1 +mx ~all"
-                    3600  IN  TXT     "keybase-site-verification=djhuxmwVR_UMrQ6zCFpB2oGgMZCZvsFbcRTA9OG5_30"
 _dmarc              3600  IN  TXT     "v=DMARC1; p=reject; adkim=s; aspf=s"
 _adsp._domainkey    3600  IN  TXT     "dkim=all"
 mail._domainkey     3600  IN  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
 
-vps                 3600  IN  A       37.205.10.143
-                    3600  IN  AAAA    2a01:430:17:1::ffff:554
-                    3600  IN  SSHFP   1 1 74DF330B6D1F565910670057022C930ED3CCE457
-                    3600  IN  SSHFP   1 2 16742D815B45699EF97913A30F26448E434B0C74AFB7C24CB5E640061069469A
-                    3600  IN  SSHFP   2 1 D84FF5B8495F4A5D2BBCBA5295524C0683B3B6BA
-                    3600  IN  SSHFP   2 2 4A90772F09703C725907E88522D9394716FB794B9F30D129586EA0D326D5B33E
-                    3600  IN  SSHFP   3 1 0C8CD26075DEB24BABA2778CC33CBF4F31B246F3
-                    3600  IN  SSHFP   3 2 A31FFC36ECA98437A18EF96C1B5051B19E7AF5B14C62582AC88FCD313ACEC937
-ipv6.vps            3600  IN  AAAA    2a01:430:17:1::ffff:554
-ipv4.vps            3600  IN  A       37.205.10.143
-
-shark               3600  IN  A       178.62.27.22
-                    3600  IN  AAAA    2a03:b0c0:1:d0::7f:8001
-                    3600  IN  SSHFP   1 1 C9A2B8E7009E663FED2511B149B40328AB064AF6
-                    3600  IN  SSHFP   1 2 794AB38371016D28A61AB35313901058FA2EBDCB49B2FE9E6EB9C5B3CC99567A
-                    3600  IN  SSHFP   2 1 BA65A025E764F70EA5101AD14501EE64FB131278
-                    3600  IN  SSHFP   2 2 00A2DCED8AC469F770297A78A93270610E7B9C6527DE899BF545FB47677B6833
-                    3600  IN  SSHFP   3 1 426508137B257146E3EA16849018C6E61FD4A371
-                    3600  IN  SSHFP   3 2 4B6B0D48322F9F7324F695875080EACA8EE3F342FCE63945360CE52039243ED9
-ipv6.shark          3600  IN  AAAA    2a03:b0c0:1:d0::7f:8001
-ipv4.shark          3600  IN  A       178.62.27.22
+www                 3600  IN  CNAME   pdostal.cz.
+external            3600  IN  CNAME   sorrel.pdostal.cz.
+global              3600  IN  CNAME   sorrel.pdostal.cz.
+tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
+trandir             3600  IN  CNAME   sorrel.pdostal.cz.
 
 cucumber            3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
                     3600  IN  A       46.101.158.52
@@ -55,8 +40,6 @@ cucumber            3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
                     3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
                     3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
                     3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
-ipv6.cucumber       3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
-ipv4.cucumber       3600  IN  A       46.101.158.52
 
 rhubarb             3600  IN  AAAA    2a03:b0c0:1:d0::92:1
                     3600  IN  A       178.62.121.169
@@ -68,8 +51,6 @@ rhubarb             3600  IN  AAAA    2a03:b0c0:1:d0::92:1
                     3600  IN  SSHFP   4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
                     3600  IN  SSHFP   1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
                     3600  IN  SSHFP   1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
-ipv6.rhubarb        3600  IN  AAAA    2a03:b0c0:1:d0::92:1
-ipv4.rhubarb        3600  IN  A       178.62.121.169
 
 sorrel              3600  IN  AAAA    2a03:b0c0:3:d0::22:1
                     3600  IN  A       46.101.174.83
@@ -79,8 +60,6 @@ sorrel              3600  IN  AAAA    2a03:b0c0:3:d0::22:1
                     3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
                     3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
                     3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
-ipv6.sorrel         3600  IN  AAAA    2a03:b0c0:3:d0::22:1
-ipv4.sorrel         3600  IN  A       46.101.174.83
 
 gr                  3600  IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  A       88.102.184.51
@@ -92,22 +71,11 @@ gr                  3600  IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
-ipv6.gr             3600  IN  AAAA    2A00:1028:8382:990A::1
-ipv4.gr             3600  IN  A       88.102.184.51
-
 
 home                3600  IN  AAAA    2002:d404:8fab::1
                     3600  IN  A       212.4.143.171
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
-ipv6.home           3600  IN  AAAA    2002:d404:8fab::1
-ipv4.home           3600  IN  A       212.4.143.171
-
-www                 3600  IN  CNAME   pdostal.cz.
-external            3600  IN  CNAME   sorrel.pdostal.cz.
-global              3600  IN  CNAME   sorrel.pdostal.cz.
-tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
-trandir             3600  IN  CNAME   sorrel.pdostal.cz.
 
 cucumber.vpn        3600	IN  A       172.127.127.1
                     3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
