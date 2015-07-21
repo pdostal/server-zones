@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015071601
+                                        2015072101
                                         3600
                                         900
                                         1814400
@@ -128,31 +128,31 @@ gr.gr               3600	IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
 storage.gr          3600	IN  AAAA    2A00:1028:8382:990A::2
-                    3600  IN  A       172.24.24.2
+                    3600  IN  A       172.31.31.2
 phone.gr            3600	IN  AAAA    2A00:1028:8382:990A::3
-                    3600  IN  A       172.24.24.3
+                    3600  IN  A       172.31.31.3
 rpi.gr              3600	IN  AAAA    2A00:1028:8382:990A::4
-                    3600  IN  A       172.24.24.4
+                    3600  IN  A       172.31.31.4
 paul-macbook.gr     3600	IN  AAAA    2A00:1028:8382:990A::21
-                    3600  IN  A       172.24.24.21
+                    3600  IN  A       172.31.31.21
                     3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
                     3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
                     3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
                     3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
 paul-iphone.gr      3600	IN  AAAA    2A00:1028:8382:990A::22
-                    3600  IN  A       172.24.24.22
+                    3600  IN  A       172.31.31.22
 paul-ipad.gr        3600  IN  AAAA    2A00:1028:8382:990A::23
-                    3600	IN  A       172.24.24.23
+                    3600	IN  A       172.31.31.23
 jarda-pc.gr         3600	IN  AAAA    2A00:1028:8382:990A::24
-                    3600  IN  A       172.24.24.24
+                    3600  IN  A       172.31.31.24
 jarda-mbp.gr        3600	IN  AAAA    2A00:1028:8382:990A::25
-                    3600  IN  A       172.24.24.25
+                    3600  IN  A       172.31.31.25
 jarda-ipad.gr       3600	IN  AAAA    2A00:1028:8382:990A::26
-                    3600  IN  A       172.24.24.26
+                    3600  IN  A       172.31.31.26
 zdenek-iphone.gr    3600	IN  AAAA    2A00:1028:8382:990A::27
-                    3600  IN  A       172.24.24.27
+                    3600  IN  A       172.31.31.27
 zdenek-hp.gr        3600	IN  AAAA    2A00:1028:8382:990A::28
-                    3600  IN  A       172.24.24.28
+                    3600  IN  A       172.31.31.28
 
 home.home           3600	IN  AAAA    2002:d404:8fab::1
                     3600  IN  A       172.24.24.1
