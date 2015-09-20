@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015080901
+                                        2015092001
                                         3600
                                         900
                                         1814400
@@ -82,7 +82,7 @@ home                3600  IN  AAAA    2002:d404:8fab::1
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
 
-cucumber.vpn        3600	IN  A       172.127.127.1
+cucumber.vpn        3600	IN  A       172.27.27.1
                     3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
                     3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
                     3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
@@ -91,7 +91,7 @@ cucumber.vpn        3600	IN  A       172.127.127.1
                     3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
                     3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
                     3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
-rhubarb.vpn         3600	IN  A       172.127.127.2
+rhubarb.vpn         3600	IN  A       172.27.27.2
                     3600  IN  SSHFP   2 1 8e98b3b139806cf91da0ecd4568a656ec5eff8b9
                     3600  IN  SSHFP   2 2 46cae98287e332cec7539e0488b31ead08690ead92df0106a495a81290cb1e52
                     3600  IN  SSHFP   3 1 d8d054483c9967e8be77145c410dcf8b197ef5b2
@@ -100,14 +100,14 @@ rhubarb.vpn         3600	IN  A       172.127.127.2
                     3600  IN  SSHFP   4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
                     3600  IN  SSHFP   1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
                     3600  IN  SSHFP   1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
-sorrel.vpn          3600	IN  A       172.127.127.3
+sorrel.vpn          3600	IN  A       172.27.27.3
                     3600  IN  SSHFP   3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
                     3600  IN  SSHFP   3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
                     3600  IN  SSHFP   2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
                     3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
                     3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
                     3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
-gr.vpn              3600	IN  A       172.127.127.4
+gr.vpn              3600	IN  A       172.27.27.4
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
                     3600  IN  SSHFP   2 2 56ecab7692d15fe952ee6b624a408bd38accd4453a5b6bd9764cc1a0b5c6bb8a
                     3600  IN  SSHFP   3 1 47d570b263845d31287e0a3b75e61cd1506165ae
@@ -116,9 +116,14 @@ gr.vpn              3600	IN  A       172.127.127.4
                     3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
-home.vpn            3600	IN  A       172.127.127.5
+home.vpn            3600	IN  A       172.27.27.5
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
+cucumber.vpn        3600  IN  A       172.27.27.6
+                    3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
+                    3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
+                    3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
+                    3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
 
 gr.gr               3600	IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  A       172.24.24.1
