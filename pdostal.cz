@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015092001
+                                        2015092003
                                         3600
                                         900
                                         1814400
@@ -119,7 +119,7 @@ gr.vpn              3600	IN  A       172.27.27.4
 home.vpn            3600	IN  A       172.27.27.5
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
-cucumber.vpn        3600  IN  A       172.27.27.6
+carambola.vpn       3600  IN  A       172.27.27.6
                     3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
                     3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
                     3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
