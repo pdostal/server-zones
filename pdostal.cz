@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015092003
+                                        2015092701
                                         3600
                                         900
                                         1814400
@@ -29,6 +29,7 @@ tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
 global              3600  IN  CNAME   sorrel.pdostal.cz.
 kddapi              3600  IN  CNAME   sorrel.pdostal.cz.
 trandir             3600  IN  CNAME   sorrel.pdostal.cz.
+mqtt2socketio       3600  IN  CNAME   sorrel.pdostal.cz.
 external            3600  IN  CNAME   sorrel.pdostal.cz.
 observium           3600  IN  CNAME   cucumber.pdostal.cz.
 munin               3600  IN  CNAME   cucumber.pdostal.cz.
