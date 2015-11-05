@@ -1,6 +1,6 @@
 $TTL	3600
 @	    86400	IN	SOA	  cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                      2015061401
+                      2015110501
                       7200
                       540
                       604800
@@ -13,12 +13,3 @@ $TTL	3600
 1     3600	IN  PTR  	gr.gr.pdostal.cz.
 2     3600	IN  PTR  	storage.gr.pdostal.cz.
 3     3600	IN  PTR  	phone.gr.pdostal.cz.
-4     3600	IN  PTR  	rpi.gr.pdostal.cz.
-21    3600	IN  PTR  	pauls-macbook.gr.pdostal.cz.
-22    3600	IN  PTR  	pauls-iphone.gr.pdostal.cz.
-23    3600	IN  PTR  	pauls-ipad.gr.pdostal.cz.
-24    3600	IN  PTR  	jarda-pc.gr.pdostal.cz.
-25    3600	IN  PTR  	jarda-mbp.gr.pdostal.cz.
-26    3600	IN  PTR  	jarda-ipad.gr.pdostal.cz.
-27    3600	IN  PTR  	zdenek-iphone.gr.pdostal.cz.
-28    3600	IN  PTR  	zdenek-hp.gr.pdostal.cz.

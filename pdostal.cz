@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015092701
+                                        2015110501
                                         3600
                                         900
                                         1814400
@@ -16,6 +16,7 @@ $TTL                3600
 
                     3600  IN  AAAA    2a03:b0c0:3:d0::22:1
                     3600  IN  A       46.101.174.83
+                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
                     3600  IN  TXT     "keybase-site-verification=djhuxmwVR_UMrQ6zCFpB2oGgMZCZvsFbcRTA9OG5_30"
 
@@ -24,7 +25,7 @@ _dmarc              3600  IN  TXT     "v=DMARC1; p=reject; adkim=s; aspf=s"
 _adsp._domainkey    3600  IN  TXT     "dkim=all"
 mail._domainkey     3600  IN  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
 
-www                 3600  IN  CNAME   pdostal.cz.
+www                 3600  IN  CNAME   sorrel.pdostal.cz.
 tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
 global              3600  IN  CNAME   sorrel.pdostal.cz.
 kddapi              3600  IN  CNAME   sorrel.pdostal.cz.
@@ -36,6 +37,10 @@ munin               3600  IN  CNAME   cucumber.pdostal.cz.
 icinga1             3600  IN  CNAME   cucumber.pdostal.cz.
 icinga2             3600  IN  CNAME   cucumber.pdostal.cz.
 
+
+;;;;;;;;;;;
+;; CORE ;;;
+;;;;;;;;;;;
 cucumber            3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
                     3600  IN  A       46.101.158.52
                     3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
@@ -46,6 +51,7 @@ cucumber            3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
                     3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
                     3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
                     3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
 rhubarb             3600  IN  AAAA    2a03:b0c0:1:d0::92:1
                     3600  IN  A       178.62.121.169
@@ -57,6 +63,7 @@ rhubarb             3600  IN  AAAA    2a03:b0c0:1:d0::92:1
                     3600  IN  SSHFP   4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
                     3600  IN  SSHFP   1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
                     3600  IN  SSHFP   1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
+                    3600  IN  LOC     51 30 7.695 N 0 0 31.845 E 3m 10m 100m 10m
 
 sorrel              3600  IN  AAAA    2a03:b0c0:3:d0::22:1
                     3600  IN  A       46.101.174.83
@@ -66,8 +73,21 @@ sorrel              3600  IN  AAAA    2a03:b0c0:3:d0::22:1
                     3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
                     3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
                     3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
+                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
-gr                  3600  IN  AAAA    2A00:1028:8382:990A::1
+grape               3600  IN  AAAA    2604:a880:800:10::a6:9001
+                    3600  IN  A       159.203.139.122
+                    3600  IN  SSHFP   2 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   2 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   3 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   3 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   4 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   4 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   1 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   1 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  LOC     40 42 43.678 N 74 0 25.963 W 10m 10m 100m 10m
+
+gr                  3600  IN  AAAA    2001:470:5A7F::1
                     3600  IN  A       88.102.184.51
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
                     3600  IN  SSHFP   2 2 56ecab7692d15fe952ee6b624a408bd38accd4453a5b6bd9764cc1a0b5c6bb8a
@@ -77,13 +97,19 @@ gr                  3600  IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
+                    3600  IN  LOC     50 4 11.572 N 14 22 41.134 E 227m 10m 100m 10m
 
 home                3600  IN  AAAA    2002:d404:8fab::1
                     3600  IN  A       212.4.143.171
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
+                    3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
 
-cucumber.vpn        3600	IN  A       172.27.27.1
+
+;;;;;;;;
+;; DO ;;
+;;;;;;;;
+cucumber.do         3600  IN  A       10.135.235.191
                     3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
                     3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
                     3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
@@ -92,7 +118,8 @@ cucumber.vpn        3600	IN  A       172.27.27.1
                     3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
                     3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
                     3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
-rhubarb.vpn         3600	IN  A       172.27.27.2
+
+rhubarb.do          3600  IN  A       10.131.247.11
                     3600  IN  SSHFP   2 1 8e98b3b139806cf91da0ecd4568a656ec5eff8b9
                     3600  IN  SSHFP   2 2 46cae98287e332cec7539e0488b31ead08690ead92df0106a495a81290cb1e52
                     3600  IN  SSHFP   3 1 d8d054483c9967e8be77145c410dcf8b197ef5b2
@@ -101,14 +128,59 @@ rhubarb.vpn         3600	IN  A       172.27.27.2
                     3600  IN  SSHFP   4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
                     3600  IN  SSHFP   1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
                     3600  IN  SSHFP   1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
-sorrel.vpn          3600	IN  A       172.27.27.3
+
+sorrel.do           3600  IN  A       10.135.254.36
                     3600  IN  SSHFP   3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
                     3600  IN  SSHFP   3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
                     3600  IN  SSHFP   2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
                     3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
                     3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
                     3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
-gr.vpn              3600	IN  A       172.27.27.4
+
+grape.do            3600  IN  A       10.132.175.99
+                    3600  IN  SSHFP   2 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   2 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   3 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   3 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   4 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   4 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   1 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   1 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+
+;;;;;;;;;
+;; VPN ;;
+;;;;;;;;;
+cucumber.vpn        3600	IN  AAAA    2001:470:734b:27::1
+                    3600  IN  A       172.27.27.1
+                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
+                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
+                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
+                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
+                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
+                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
+                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
+                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+rhubarb.vpn         3600	IN  AAAA    2001:470:734b:27::2
+                    3600  IN  A       172.27.27.2
+                    3600  IN  SSHFP   2 1 8e98b3b139806cf91da0ecd4568a656ec5eff8b9
+                    3600  IN  SSHFP   2 2 46cae98287e332cec7539e0488b31ead08690ead92df0106a495a81290cb1e52
+                    3600  IN  SSHFP   3 1 d8d054483c9967e8be77145c410dcf8b197ef5b2
+                    3600  IN  SSHFP   3 2 39ca09e5e37e7aa8aaa8a823ca383a698750ca427d8689fa886b64ec2d62f82b
+                    3600  IN  SSHFP   4 1 cad194085d01d4eee1e37c8b1d1778fb4c6b03d8
+                    3600  IN  SSHFP   4 2 599ed26d59480f8a97d0bfc5193f0b1e1838a8e9b60ea7be5fda1584840c63f6
+                    3600  IN  SSHFP   1 1 71df889d8ebf7936971e868ef481c7861d73cc7f
+                    3600  IN  SSHFP   1 2 ad75e49e9a63b0fec453aec737d00e2af76e95101022e4f378c98f6fcc6c2bfd
+sorrel.vpn          3600	IN  AAAA    2001:470:734b:27::3
+                    3600  IN  A       172.27.27.3
+                    3600  IN  SSHFP   3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
+                    3600  IN  SSHFP   3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
+                    3600  IN  SSHFP   2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
+                    3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
+                    3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
+                    3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
+gr.vpn              3600	IN  AAAA    2001:470:734b:27::4
+                    3600  IN  A       172.27.27.4
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
                     3600  IN  SSHFP   2 2 56ecab7692d15fe952ee6b624a408bd38accd4453a5b6bd9764cc1a0b5c6bb8a
                     3600  IN  SSHFP   3 1 47d570b263845d31287e0a3b75e61cd1506165ae
@@ -117,15 +189,60 @@ gr.vpn              3600	IN  A       172.27.27.4
                     3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
-home.vpn            3600	IN  A       172.27.27.5
+home.vpn            3600	IN  AAAA    2001:470:734b:27::5
+                    3600  IN  A       172.27.27.5
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
-carambola.vpn       3600  IN  A       172.27.27.6
+carambola.vpn       3600  IN  AAAA    2001:470:734b:27::6
+                    3600  IN  A       172.27.27.6
                     3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
                     3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
                     3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
                     3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
+grape.do            3600  IN  AAAA    2001:470:734b:27::7
+                    3600  IN  A       172.27.27.7
+                    3600  IN  SSHFP   2 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   2 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   3 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   3 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   4 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   4 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   1 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
+                    3600  IN  SSHFP   1 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
+
+;;;;;;;;;;
+;; VPNC ;;
+;;;;;;;;;;
+cucumber.vpnc       3600	IN  AAAA    2001:470:734b:26::1
+                    3600  IN  A       172.26.26.1
+                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
+                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
+                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
+                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
+                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
+                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
+                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
+                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+macbook.vpnc        3600	IN  AAAA    2001:470:734b:26::2
+                    3600  IN  A       172.26.26.2
+iphone.vpnc         3600	IN  AAAA    2001:470:734b:26::3
+                    3600  IN  A       172.26.26.3
+rpi.vpnc            3600	IN  AAAA    2001:470:734b:26::4
+                    3600  IN  A       172.26.26.4
+windows.vpnc        3600	IN  AAAA    2001:470:734b:26::5
+                    3600  IN  A       172.26.26.5
+hogent-saska.vpnc   3600	IN  A       172.26.26.11
+hogent-terrenc.vpnc 3600	IN  AAAA    2001:470:734b:26::12
+                    3600  IN  A       172.26.26.12
+hogent-lai.vpnc     3600	IN  A       172.26.26.13
+kopas-iphone.vpnc   3600	IN  AAAA    2001:470:734b:26::14
+                    3600  IN  A       172.26.26.14
+
+
+;;;;;;;;
+;; GR ;;
+;;;;;;;;
 gr.gr               3600	IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  A       172.24.24.1
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
@@ -136,54 +253,30 @@ gr.gr               3600	IN  AAAA    2A00:1028:8382:990A::1
                     3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
                     3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
                     3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
-storage.gr          3600	IN  AAAA    2A00:1028:8382:990A::2
-                    3600  IN  A       172.31.31.2
-phone.gr            3600	IN  AAAA    2A00:1028:8382:990A::3
-                    3600  IN  A       172.31.31.3
-rpi.gr              3600	IN  AAAA    2A00:1028:8382:990A::4
-                    3600  IN  A       172.31.31.4
-paul-macbook.gr     3600	IN  AAAA    2A00:1028:8382:990A::21
-                    3600  IN  A       172.31.31.21
+storage.gr          3600	IN  A       172.31.31.2
+phone.gr            3600	IN  A       172.31.31.3
+
+;;;;;;;;;;;;;;;
+;; CARAMBOLA ;;
+;;;;;;;;;;;;;;;
+carambola.carambola 3600  IN  AAAA    2001:470:734b:29::1
+                    3600  IN  A       172.27.29.1
                     3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
                     3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
                     3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
                     3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
-paul-iphone.gr      3600	IN  AAAA    2A00:1028:8382:990A::22
-                    3600  IN  A       172.31.31.22
-paul-ipad.gr        3600  IN  AAAA    2A00:1028:8382:990A::23
-                    3600	IN  A       172.31.31.23
-jarda-pc.gr         3600	IN  AAAA    2A00:1028:8382:990A::24
-                    3600  IN  A       172.31.31.24
-jarda-mbp.gr        3600	IN  AAAA    2A00:1028:8382:990A::25
-                    3600  IN  A       172.31.31.25
-jarda-ipad.gr       3600	IN  AAAA    2A00:1028:8382:990A::26
-                    3600  IN  A       172.31.31.26
-zdenek-iphone.gr    3600	IN  AAAA    2A00:1028:8382:990A::27
-                    3600  IN  A       172.31.31.27
-zdenek-hp.gr        3600	IN  AAAA    2A00:1028:8382:990A::28
-                    3600  IN  A       172.31.31.28
+rpi.carambola       3600  IN  AAAA    2001:470:734b:29::2
+                    3600  IN  A       172.27.29.2
+macbook.carambola   3600  IN  AAAA    2001:470:734b:29::3
+                    3600  IN  A       172.27.29.3
 
+
+;;;;;;;;;;
+;; HOME ;;
+;;;;;;;;;;
 home.home           3600	IN  AAAA    2002:d404:8fab::1
                     3600  IN  A       172.24.24.1
                     3600  IN  SSHFP   1 1 d79902cd27d6e3dea8289a851c029d98eb8a8e66
                     3600  IN  SSHFP   1 2 e75aa9ab2960618f3cd0b91410c20f5789c6c3934ef3f4aaafffb7aaec3dff19
-RIPE-Atlas.home     3600	IN  AAAA    2002:d404:8fab::22
-                    3600  IN  A       172.24.24.2
-philips-hue.home    3600	IN  AAAA    2002:d404:8fab::23
-                    3600  IN  A       172.24.24.3
-paul-macbook.home   3600	IN  AAAA    2002:d404:8fab::21
-                    3600  IN  A       172.24.24.21
-                    3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
-                    3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
-                    3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
-                    3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
-paul-iphone.home    3600	IN  AAAA    2002:d404:8fab::22
-                    3600  IN  A       172.24.24.22
-paul-ipad.home      3600	IN  AAAA    2002:d404:8fab::23
-                    3600  IN  A       172.24.24.23
-janca-iphone.home   3600	IN  AAAA    2002:d404:8fab::24
-                    3600  IN  A       172.24.24.24
-vasek-iphone.home   3600	IN  AAAA    2002:d404:8fab::25
-                    3600  IN  A       172.24.24.25
-deedee-iphone.home  3600	IN  AAAA    2002:d404:8fab::26
-                    3600  IN  A       172.24.24.26
+RIPE-Atlas.home     3600	IN  A       172.24.24.2
+philips-hue.home    3600	IN  A       172.24.24.3
