@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015110503
+                                        2015111403
                                         3600
                                         900
                                         1814400
@@ -25,6 +25,9 @@ _dmarc              3600  IN  TXT     "v=DMARC1; p=reject; adkim=s; aspf=s"
 _adsp._domainkey    3600  IN  TXT     "dkim=all"
 mail._domainkey     3600  IN  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
 
+;;;;;;;;;;;;
+;; CNAMES ;;
+;;;;;;;;;;;;
 www                 3600  IN  CNAME   sorrel.pdostal.cz.
 tmp                 3600  IN  CNAME   sorrel.pdostal.cz.
 global              3600  IN  CNAME   sorrel.pdostal.cz.
@@ -260,15 +263,15 @@ phone.gr            3600	IN  A       172.31.31.3
 ;; CARAMBOLA ;;
 ;;;;;;;;;;;;;;;
 carambola.carambola 3600  IN  AAAA    2001:470:734b:29::1
-                    3600  IN  A       172.27.29.1
+                    3600  IN  A       172.29.29.1
                     3600  IN  SSHFP   2 1 82c0fe7fe9c16f8f1bd3363867df0b28d8f2413a
                     3600  IN  SSHFP   2 2 4d5629dcb08893affcd171dfc071c267375ddf5ce234c3ac35ae9edf4d498a69
                     3600  IN  SSHFP   1 1 39025fa2657d84eacdf80bd4010922d3a0dc82c0
                     3600  IN  SSHFP   1 2 d15d7a8cdce25b094f16d4d5dfdb94707c77f8fe5df78dd278a7d87f8a7538ae
 rpi.carambola       3600  IN  AAAA    2001:470:734b:29::2
-                    3600  IN  A       172.27.29.2
+                    3600  IN  A       172.29.29.2
 macbook.carambola   3600  IN  AAAA    2001:470:734b:29::3
-                    3600  IN  A       172.27.29.3
+                    3600  IN  A       172.29.29.3
 
 
 ;;;;;;;;;;
