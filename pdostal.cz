@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015111403
+                                        2015112101
                                         3600
                                         900
                                         1814400
@@ -39,7 +39,7 @@ observium           3600  IN  CNAME   cucumber.pdostal.cz.
 munin               3600  IN  CNAME   cucumber.pdostal.cz.
 icinga1             3600  IN  CNAME   cucumber.pdostal.cz.
 icinga2             3600  IN  CNAME   cucumber.pdostal.cz.
-
+nodered             3600  IN  CNAME   cucumber.pdostal.cz.
 
 ;;;;;;;;;;;
 ;; CORE ;;;
