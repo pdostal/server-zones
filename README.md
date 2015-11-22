@@ -4,7 +4,6 @@ Deploy to master server
 ## Domains:
 - pdostal.cz
 - motorenovace.com
-- truhlarstvitaticek.cz
 
 ## Networks:
 - 127.27.72.in-addr.arpa
