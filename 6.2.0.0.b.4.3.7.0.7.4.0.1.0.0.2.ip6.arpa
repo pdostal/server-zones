@@ -1,0 +1,20 @@
+$TTL	3600
+@	                                86400	IN	SOA	  cucumber.pdostal.cz. zonemaster.pdostal.cz. (
+                                                    2015112801
+                                                    7200
+                                                    540
+                                                    604800
+                                                    86400 )
+
+                                  86400	IN  NS    cucumber.pdostal.cz.
+                                  86400	IN  NS	  rhubarb.pdostal.cz.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   3600	IN  PTR  	cucumber.vpnc.pdostal.cz.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   3600	IN  PTR  	macbook.vpnc.pdostal.cz.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   3600	IN  PTR  	iphone.vpnc.pdostal.cz.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   3600	IN  PTR  	rpi.vpnc.pdostal.cz.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   3600	IN  PTR  	windows.vpnc.pdostal.cz.
+11.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0  3600	IN  PTR  	hogent-saska.vpnc.pdostal.cz.
+12.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0  3600	IN  PTR  	hogent-terrenc.vpnc.pdostal.cz.
+13.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0  3600	IN  PTR  	hogent-lai.vpnc.pdostal.cz.
+14.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0  3600	IN  PTR  	kopas-iphone.vpnc.pdostal.cz.
