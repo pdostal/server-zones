@@ -6,10 +6,10 @@ Deploy to master server
 - motorenovace.com
 
 ## Networks:
-- 127.27.72.in-addr.arpa
-- 127.26.76.in-addr.arpa
+- 27.27.172.in-addr.arpa
+- 26.26.172.in-addr.arpa
 
 ## Delegates:
 - 24.24.172.in-addr.arpa
-- 127.29.79.in-addr.arpa
+- 29.29.172.in-addr.arpa
 - 31.31.172.in-addr.arpa
