@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015112203
+                                        2015121501
                                         3600
                                         900
                                         1814400
@@ -88,6 +88,18 @@ grape               3600  IN  AAAA    2604:a880:800:10::a6:9001
                     3600  IN  SSHFP   1 1 9c7e1f05c2cacf380990ff37d0b8649d2ea6ada8
                     3600  IN  SSHFP   1 2 51a4bb75faa520fd8687dd422e129b0f3c11960e5d08304d09f3fe68c3cd4b70
                     3600  IN  LOC     40 42 43.678 N 74 0 25.963 W 10m 10m 100m 10m
+
+peas                3600  IN  AAAA    2002:5102:f5fa::1
+                    3600  IN  A       81.2.245.250
+                    3600  IN  SSHFP   2 1 d0a741a915472717ff52edc8a8f1cb6adbaf7ffb
+                    3600  IN  SSHFP   2 2 9b1d5ab57b2446c40e928f76cc21ead6b93fada3960eed107a670de03748c1de
+                    3600  IN  SSHFP   3 1 836767e2f3250513f88331a1c6e565c8f5e98dbb
+                    3600  IN  SSHFP   3 2 d3374d7570d2ccfe418637e9cfd65b789c970dbcbdc1865a04a2bbf91b81ddfe
+                    3600  IN  SSHFP   4 1 0281510f0c9688631cf750d9d95b2442cb9c4a42
+                    3600  IN  SSHFP   4 2 226b90fa7321cf85c80c16252856764de418154204178d95992fab7c11e50290
+                    3600  IN  SSHFP   1 1 2a158c64cd040d0b58bdfdbe9297fc9d6ff7cb87
+                    3600  IN  SSHFP   1 2 b2639035839aca9d751ba207ce687ec06e0566f4e8a82c0bb8226d0962cda6ec
+                    3600  IN  LOC     50 5 11.341 N 14 24 40.95 E 180m 10m 100m 10m
 
 gr                  3600  IN  AAAA    2001:470:6e:7bc::2
                     3600  IN  A       88.102.184.51
@@ -257,6 +269,17 @@ grape.vpn           3600  IN  AAAA    2001:470:734b:27::7
                     3600  IN  SSHFP   1 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
                     3600  IN  SSHFP   1 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
                     3600  IN  LOC     40 42 43.678 N 74 0 25.963 W 10m 10m 100m 10m
+peas.vpn            3600  IN  AAAA    2001:470:734b:27::8
+                    3600  IN  A       172.27.27.8
+                    3600  IN  SSHFP   2 1 d0a741a915472717ff52edc8a8f1cb6adbaf7ffb
+                    3600  IN  SSHFP   2 2 9b1d5ab57b2446c40e928f76cc21ead6b93fada3960eed107a670de03748c1de
+                    3600  IN  SSHFP   3 1 836767e2f3250513f88331a1c6e565c8f5e98dbb
+                    3600  IN  SSHFP   3 2 d3374d7570d2ccfe418637e9cfd65b789c970dbcbdc1865a04a2bbf91b81ddfe
+                    3600  IN  SSHFP   4 1 0281510f0c9688631cf750d9d95b2442cb9c4a42
+                    3600  IN  SSHFP   4 2 226b90fa7321cf85c80c16252856764de418154204178d95992fab7c11e50290
+                    3600  IN  SSHFP   1 1 2a158c64cd040d0b58bdfdbe9297fc9d6ff7cb87
+                    3600  IN  SSHFP   1 2 b2639035839aca9d751ba207ce687ec06e0566f4e8a82c0bb8226d0962cda6ec
+                    3600  IN  LOC     50 5 11.341 N 14 24 40.95 E 180m 10m 100m 10m
 
 
 ;;;;;;;;;;
