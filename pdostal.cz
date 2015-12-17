@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015121501
+                                        2015121701
                                         3600
                                         900
                                         1814400
@@ -301,8 +301,3 @@ hogent-terrenc.vpnc 3600	IN  AAAA    2001:470:734b:26::12
 hogent-lai.vpnc     3600	IN  A       172.26.26.13
 kopas-iphone.vpnc   3600	IN  AAAA    2001:470:734b:26::14
                     3600  IN  A       172.26.26.14
-
-
-gr                  3600	IN  NS      gr.vpn.pdostal.cz.
-carambola           3600  IN  NS      carambola.vpn.pdostal.cz.
-home                3600	IN  NS      home.vpn.pdostal.cz.
