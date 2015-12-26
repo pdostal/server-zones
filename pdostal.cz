@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2015121701
+                                        2015122601
                                         3600
                                         900
                                         1814400
@@ -45,14 +45,14 @@ nodered             3600  IN  CNAME   cucumber.pdostal.cz.
 ;;;;;;;;;;;
 cucumber            3600  IN  AAAA    2a03:b0c0:3:d0::126:e001
                     3600  IN  A       46.101.158.52
-                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
-                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
-                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
-                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
-                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
-                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
-                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
-                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+                    3600  IN  SSHFP   2 1 e92d191bb84de940accadfe049a5d8b79537e789
+                    3600  IN  SSHFP   2 2 ea95ec0b1881165014b0199e1c323bdd78c713c11a6864bc82c134c729259bc1
+                    3600  IN  SSHFP   3 1 44e10a5398f442b7e34bee5f3054f465b7eaa908
+                    3600  IN  SSHFP   3 2 e409482016010e77aa836eae6d270a5223c38536bf290029345b1bab393b33e4
+                    3600  IN  SSHFP   4 1 9074cb07b77d67f48791ef5898f0a10ba0e29125
+                    3600  IN  SSHFP   4 2 991522c526ca7cf1c5630f5a1cdfd338d4dfc0e47bf5dfb2080c1013e9e75c0c
+                    3600  IN  SSHFP   1 1 4c3d4bf7f27e2a4b69b73213ff1d3bbc83b59888
+                    3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
 rhubarb             3600  IN  AAAA    2a03:b0c0:1:d0::92:1
@@ -133,14 +133,14 @@ home                3600  IN  AAAA    2002:d404:8fab::1
 ;; DO ;;
 ;;;;;;;;
 cucumber.do         3600  IN  A       10.135.235.191
-                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
-                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
-                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
-                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
-                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
-                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
-                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
-                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+                    3600  IN  SSHFP   2 1 e92d191bb84de940accadfe049a5d8b79537e789
+                    3600  IN  SSHFP   2 2 ea95ec0b1881165014b0199e1c323bdd78c713c11a6864bc82c134c729259bc1
+                    3600  IN  SSHFP   3 1 44e10a5398f442b7e34bee5f3054f465b7eaa908
+                    3600  IN  SSHFP   3 2 e409482016010e77aa836eae6d270a5223c38536bf290029345b1bab393b33e4
+                    3600  IN  SSHFP   4 1 9074cb07b77d67f48791ef5898f0a10ba0e29125
+                    3600  IN  SSHFP   4 2 991522c526ca7cf1c5630f5a1cdfd338d4dfc0e47bf5dfb2080c1013e9e75c0c
+                    3600  IN  SSHFP   1 1 4c3d4bf7f27e2a4b69b73213ff1d3bbc83b59888
+                    3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
 rhubarb.do          3600  IN  A       10.131.247.11
@@ -179,14 +179,14 @@ grape.do            3600  IN  A       10.132.175.99
 ;; HE ;;
 ;;;;;;;;
 cucumber.he         3600  IN  AAAA    2001:470:1f0a:6e8::2
-                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
-                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
-                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
-                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
-                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
-                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
-                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
-                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+                    3600  IN  SSHFP   2 1 e92d191bb84de940accadfe049a5d8b79537e789
+                    3600  IN  SSHFP   2 2 ea95ec0b1881165014b0199e1c323bdd78c713c11a6864bc82c134c729259bc1
+                    3600  IN  SSHFP   3 1 44e10a5398f442b7e34bee5f3054f465b7eaa908
+                    3600  IN  SSHFP   3 2 e409482016010e77aa836eae6d270a5223c38536bf290029345b1bab393b33e4
+                    3600  IN  SSHFP   4 1 9074cb07b77d67f48791ef5898f0a10ba0e29125
+                    3600  IN  SSHFP   4 2 991522c526ca7cf1c5630f5a1cdfd338d4dfc0e47bf5dfb2080c1013e9e75c0c
+                    3600  IN  SSHFP   1 1 4c3d4bf7f27e2a4b69b73213ff1d3bbc83b59888
+                    3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 gr.he               3600  IN  AAAA    2001:470:6e:7bc::2
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
@@ -204,14 +204,14 @@ gr.he               3600  IN  AAAA    2001:470:6e:7bc::2
 ;;;;;;;;;
 cucumber.vpn        3600  IN  AAAA    2001:470:734b:27::1
                     3600  IN  A       172.27.27.1
-                    3600  IN  SSHFP   2 1 303615fc8e3c8d3a65517d215bc212b35c5ec202
-                    3600  IN  SSHFP   2 2 4b9093e75772099594e3779eb6b1e4ada43dcc18624fbcc5ca3c68c7403dae1b
-                    3600  IN  SSHFP   3 1 5f2b5b57564174e01657404371835ca76e19d214
-                    3600  IN  SSHFP   3 2 d9fe2ab4b6032d030feed0ed83dd188a9e221d0f80148d320a83802e45e8f28a
-                    3600  IN  SSHFP   4 1 a09538c691823f6b98a8fbfedb05203ac58659b8
-                    3600  IN  SSHFP   4 2 7b1054356728e243f1c6664955712f531493fec537c6b871aa5f3162abeda8f2
-                    3600  IN  SSHFP   1 1 f9e61ddf91eb737f9ef2f2f0d20bc0b1c145784a
-                    3600  IN  SSHFP   1 2 e6821b531683be0ed2ebaef0c07fa2eed3ba67a74e12ec36a5d5bd05c0910fd6
+                    3600  IN  SSHFP   2 1 e92d191bb84de940accadfe049a5d8b79537e789
+                    3600  IN  SSHFP   2 2 ea95ec0b1881165014b0199e1c323bdd78c713c11a6864bc82c134c729259bc1
+                    3600  IN  SSHFP   3 1 44e10a5398f442b7e34bee5f3054f465b7eaa908
+                    3600  IN  SSHFP   3 2 e409482016010e77aa836eae6d270a5223c38536bf290029345b1bab393b33e4
+                    3600  IN  SSHFP   4 1 9074cb07b77d67f48791ef5898f0a10ba0e29125
+                    3600  IN  SSHFP   4 2 991522c526ca7cf1c5630f5a1cdfd338d4dfc0e47bf5dfb2080c1013e9e75c0c
+                    3600  IN  SSHFP   1 1 4c3d4bf7f27e2a4b69b73213ff1d3bbc83b59888
+                    3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 rhubarb.vpn         3600	IN  AAAA    2001:470:734b:27::2
                     3600  IN  A       172.27.27.2
