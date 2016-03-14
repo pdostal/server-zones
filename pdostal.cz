@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2016021301
+                                        2016031401
                                         3600
                                         900
                                         1814400
@@ -293,6 +293,8 @@ iphone.vpnc         3600	IN  AAAA    2001:470:734b:26::3
                     3600  IN  A       172.26.26.3
 rpi.vpnc            3600	IN  AAAA    2001:470:734b:26::4
                     3600  IN  A       172.26.26.4
+pi.vpnc             3600  IN  AAAA    2001:470:734b:26::6
+                    3600  IN  A       172.26.26.6
 windows.vpnc        3600	IN  AAAA    2001:470:734b:26::5
                     3600  IN  A       172.26.26.5
 hogent-saska.vpnc   3600	IN  A       172.26.26.11

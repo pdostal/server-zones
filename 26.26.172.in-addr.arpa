@@ -14,6 +14,7 @@ $TTL	3600
 3     3600	IN  PTR  	iphone.vpnc.pdostal.cz.
 4     3600	IN  PTR  	rpi.vpnc.pdostal.cz.
 5     3600	IN  PTR  	windows.vpnc.pdostal.cz.
+6     3600  IN  PTR   pi.vpnc.pdostal.cz.
 11    3600	IN  PTR  	hogent-saska.vpnc.pdostal.cz.
 12    3600	IN  PTR  	hogent-terrenc.vpnc.pdostal.cz.
 13    3600	IN  PTR  	hogent-lai.vpnc.pdostal.cz.
