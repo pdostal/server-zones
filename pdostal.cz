@@ -19,7 +19,7 @@ $TTL                3600
 
                     3600  IN  TXT     "keybase-site-verification=djhuxmwVR_UMrQ6zCFpB2oGgMZCZvsFbcRTA9OG5_30"
 
-                    3600  IN  SPF     "v=spf1 mx -all"
+                    3600  IN  TXT     "v=spf1 mx -all"
 _dmarc              3600  IN  TXT     "v=DMARC1; p=reject; rua=mailto:dmarc@pdostal.cz;"
 _adsp._domainkey    3600  IN  TXT     "dkim=all"
 mail._domainkey     3600  IN  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5hae6kS2QOoCVV3Iy1JNuuWP17+K0UTvIlAUxvum74O6WVkMU/I/Nhu58HpKOHdlA2Cehg6xZ7M/cYpykjD/FPZnNzICXwFlBfmSesd1kP5WjxsSTLeVtJz4tj+Aqsn9TV9Mm9lnnsaRNq1BRXjAOHIob1Pk7pHSfGXIH7vM+tQIDAQAB"
