@@ -261,14 +261,14 @@ carambola.vpn       3600  IN  AAAA    2001:470:734b:27::6
                     3600  IN  LOC     51 2 36.522 N 3 42 52.277 E 8m 10m 100m 10m
 grape.vpn           3600  IN  AAAA    2001:470:734b:27::7
                     3600  IN  A       172.27.27.7
-                    3600  IN  SSHFP   2 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
-                    3600  IN  SSHFP   2 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-                    3600  IN  SSHFP   3 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
-                    3600  IN  SSHFP   3 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-                    3600  IN  SSHFP   4 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
-                    3600  IN  SSHFP   4 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-                    3600  IN  SSHFP   1 1 da39a3ee5e6b4b0d3255bfef95601890afd80709
-                    3600  IN  SSHFP   1 2 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+                    3600  IN  SSHFP   2 1 071a3c9e6c14dd6279017cc5af4164e6bf911f55
+                    3600  IN  SSHFP   2 2 4f368c360bb914bfd9cda7d4d9daa3c1d71d0fb3213f5645e77a17535f344c62
+                    3600  IN  SSHFP   3 1 eaefab185f12b27c02ba0ae185ff810fb357bc41
+                    3600  IN  SSHFP   3 2 68be9148809217511beba609ea94f553faf232a2a8d8ff8f123793ef44015bf8
+                    3600  IN  SSHFP   4 1 c594c8d387590d94c6e4ee57d1c15806fa1fe656
+                    3600  IN  SSHFP   4 2 0530eb462892b1f2e99f51cb60e4fe06f57cb8225854c16ff9b4bceb675e297b
+                    3600  IN  SSHFP   1 1 9c7e1f05c2cacf380990ff37d0b8649d2ea6ada8
+                    3600  IN  SSHFP   1 2 51a4bb75faa520fd8687dd422e129b0f3c11960e5d08304d09f3fe68c3cd4b70
                     3600  IN  LOC     40 42 43.678 N 74 0 25.963 W 10m 10m 100m 10m
 peas.vpn            3600  IN  AAAA    2001:470:734b:27::8
                     3600  IN  A       172.27.27.8
