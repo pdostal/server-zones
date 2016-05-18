@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2016051801
+                                        2016051803
                                         3600
                                         900
                                         1814400
@@ -16,27 +16,27 @@ $TTL                3600
 
                     3600  IN  TXT     "keybase-site-verification=djhuxmwVR_UMrQ6zCFpB2oGgMZCZvsFbcRTA9OG5_30"
 
-;;;;;;;;;;;;
-;; CNAMES ;;
-;;;;;;;;;;;;
+;;;;;;;;;;;
+;; EMAIL ;;
+;;;;;;;;;;;
                     3600  IN  MX      10 in1-smtp.messagingengine.com.
                     3600  IN  MX      20 in2-smtp.messagingengine.com.
 
                     3600  IN  TXT     "v=spf1 include:spf.messagingengine.com ?all"
-mesmtp._domainkey   3600  IN  TXT     "v=DKIM1; k=rsa; p=	10 minutes	"
+mesmtp._domainkey   3600  IN  TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDA0qq9ooUO1DJidItzRzAeQ0a4EB+XGJ26cmh5J20riEtU5V+krPT0RlKXKKsix01lz8RJxr7jYtnKnjRrI51OgzyYmpowwC7EiLcT4yI1xj9qt56w94ClR/DjuVMjdRHS0VFaFuc8nW0wW4QpcQjRo7TI5ADe4JpT2F527hOEzQIDAQAB"
 _adsp._domainkey    3600  IN  TXT     "dkim=unknown"
 
-_client._smtp       3600  IN  SRV     1 1 1
+_client._smtp       3600  IN  SRV     "1 1 1 pdostal.cz"
 
-_submission._tcp    3600  IN  SRV     0 1 587 mail.messagingengine.com
-_imap._tcp          3600  IN  SRV     0 0 0 .
-_imaps._tcp         3600  IN  SRV     0 1 993 mail.messagingengine.com
-_pop3._tcp          3600  IN  SRV     0 0 0 .
-_pop3s._tcp         3600  IN  SRV     10 1 995 mail.messagingengine.com
-_carddav._tcp       3600  IN  SRV     0 0 0 .
-_carddavs._tcp      3600  IN  SRV     0 1 443 carddav.messagingengine.com
-_caldav._tcp        3600  IN  SRV     0 0 0 .
-_caldavs._tcp       3600  IN  SRV     0 1 443 caldav.messagingengine.com
+_submission._tcp    3600  IN  SRV     "0 1 587 mail.messagingengine.com"
+_imap._tcp          3600  IN  SRV     "0 0 0 ."
+_imaps._tcp         3600  IN  SRV     "0 1 993 mail.messagingengine.com"
+_pop3._tcp          3600  IN  SRV     "0 0 0 ."
+_pop3s._tcp         3600  IN  SRV     "10 1 995 mail.messagingengine.com"
+_carddav._tcp       3600  IN  SRV     "0 0 0 ."
+_carddavs._tcp      3600  IN  SRV     "0 1 443 carddav.messagingengine.com"
+_caldav._tcp        3600  IN  SRV     "0 0 0 ."
+_caldavs._tcp       3600  IN  SRV     "0 1 443 caldav.messagingengine.com"
 
 mail                3600  IN  A       66.111.4.147
 mail                3600  IN  A       66.111.4.148
