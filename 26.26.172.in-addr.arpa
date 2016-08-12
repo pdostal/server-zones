@@ -1,13 +1,13 @@
 $TTL	3600
 @	    86400	IN	SOA	  cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                      2016021301
+                      2016081301
                       7200
                       540
                       604800
                       86400 )
 
       86400	IN  NS    cucumber.pdostal.cz.
-      86400	IN  NS	  rhubarb.pdostal.cz.
+      86400	IN  NS	  grape.pdostal.cz.
 
 1     3600	IN  PTR  	cucumber.vpnc.pdostal.cz.
 2     3600	IN  PTR  	macbook.vpnc.pdostal.cz.
