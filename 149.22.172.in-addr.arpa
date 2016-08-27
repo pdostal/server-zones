@@ -1,0 +1,18 @@
+$TTL	3600
+@	    86400	IN	SOA	  cucumber.pdostal.dn42. pdostal.pdostal.dn42. (
+                      2016082701
+                      7200
+                      540
+                      604800
+                      86400 )
+
+      86400	IN  NS    cucumber.pdostal.dn42.
+      86400	IN  NS	  grape.pdostal.dn42.
+
+113   3600	IN  PTR  	peas.pdostal.dn42.
+114   3600	IN  PTR  	cucumber.pdostal.dn42.
+115   3600	IN  PTR  	sorrel.pdostal.dn42.
+116   3600	IN  PTR  	grape.pdostal.dn42.
+117   3600	IN  PTR  	pdostal.pdostal.dn42.
+118   3600	IN  PTR  	home.pdostal.dn42.
+127   3600	IN  PTR  	gw.pdostal.dn42.
