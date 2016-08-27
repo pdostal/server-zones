@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.dn42. pdostal.pdostal.dn42. (
-                                        2016082701
+                                        2016082703
                                         3600
                                         900
                                         1814400
@@ -9,7 +9,7 @@ $TTL                3600
                     86400 IN  NS      cucumber.pdostal.dn42.
                     86400 IN  NS      grape.pdostal.dn42.
 
-                    3600  IN  A       46.101.174.83
+                    3600  IN  A       172.22.149.114
 
                     3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
 
