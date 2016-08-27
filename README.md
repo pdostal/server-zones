@@ -3,6 +3,7 @@ Deploy to master server
 
 ## Domains:
 - pdostal.cz.
+- pdostal.dn42.
 - motorenovace.com.
 
 ## Networks:

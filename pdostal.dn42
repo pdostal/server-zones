@@ -1,0 +1,104 @@
+$TTL                3600
+@                   3600  IN  SOA     cucumber.pdostal.dn42. pdostal.pdostal.dn42. (
+                                        2016082701
+                                        3600
+                                        900
+                                        1814400
+                                        900 )
+
+                    86400 IN  NS      cucumber.pdostal.dn42.
+                    86400 IN  NS      grape.pdostal.dn42.
+
+                    3600  IN  A       46.101.174.83
+
+                    3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
+
+;;;;;;;;;;;
+;; EMAIL ;;
+;;;;;;;;;;;
+                    3600  IN  MX      10 cucumber.pdostal.dn42.
+                    3600  IN  MX      20 grape.pdostal.dn42.
+
+;;;;;;;;;;;;
+;; CNAMES ;;
+;;;;;;;;;;;;
+www                 3600  IN  CNAME   sorrel.pdostal.dn42.
+tmp                 3600  IN  CNAME   sorrel.pdostal.dn42.
+global              3600  IN  CNAME   sorrel.pdostal.dn42.
+external            3600  IN  CNAME   sorrel.pdostal.dn42.
+observium           3600  IN  CNAME   cucumber.pdostal.dn42.
+icinga              3600  IN  CNAME   cucumber.pdostal.dn42.
+
+;;;;;;;;;;;
+;; CORE ;;;
+;;;;;;;;;;;
+peas                3600  IN  A       172.22.149.113
+                    3600  IN  SSHFP   2 1 d0a741a915472717ff52edc8a8f1cb6adbaf7ffb
+                    3600  IN  SSHFP   2 2 9b1d5ab57b2446c40e928f76cc21ead6b93fada3960eed107a670de03748c1de
+                    3600  IN  SSHFP   3 1 836767e2f3250513f88331a1c6e565c8f5e98dbb
+                    3600  IN  SSHFP   3 2 d3374d7570d2ccfe418637e9cfd65b789c970dbcbdc1865a04a2bbf91b81ddfe
+                    3600  IN  SSHFP   4 1 0281510f0c9688631cf750d9d95b2442cb9c4a42
+                    3600  IN  SSHFP   4 2 226b90fa7321cf85c80c16252856764de418154204178d95992fab7c11e50290
+                    3600  IN  SSHFP   1 1 2a158c64cd040d0b58bdfdbe9297fc9d6ff7cb87
+                    3600  IN  SSHFP   1 2 b2639035839aca9d751ba207ce687ec06e0566f4e8a82c0bb8226d0962cda6ec
+                    3600  IN  LOC     50 5 11.341 N 14 24 40.95 E 180m 10m 100m 10m
+
+cucumber            3600  IN  A       172.22.149.114
+                    3600  IN  SSHFP   2 1 e92d191bb84de940accadfe049a5d8b79537e789
+                    3600  IN  SSHFP   2 2 ea95ec0b1881165014b0199e1c323bdd78c713c11a6864bc82c134c729259bc1
+                    3600  IN  SSHFP   3 1 44e10a5398f442b7e34bee5f3054f465b7eaa908
+                    3600  IN  SSHFP   3 2 e409482016010e77aa836eae6d270a5223c38536bf290029345b1bab393b33e4
+                    3600  IN  SSHFP   4 1 9074cb07b77d67f48791ef5898f0a10ba0e29125
+                    3600  IN  SSHFP   4 2 991522c526ca7cf1c5630f5a1cdfd338d4dfc0e47bf5dfb2080c1013e9e75c0c
+                    3600  IN  SSHFP   1 1 4c3d4bf7f27e2a4b69b73213ff1d3bbc83b59888
+                    3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
+                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
+
+sorrel              3600  IN  A       172.22.149.115
+                    3600  IN  SSHFP   3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
+                    3600  IN  SSHFP   3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
+                    3600  IN  SSHFP   2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
+                    3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
+                    3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
+                    3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
+                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
+
+grape               3600  IN  A       172.22.149.116
+                    3600  IN  SSHFP   2 1 071a3c9e6c14dd6279017cc5af4164e6bf911f55
+                    3600  IN  SSHFP   2 2 4f368c360bb914bfd9cda7d4d9daa3c1d71d0fb3213f5645e77a17535f344c62
+                    3600  IN  SSHFP   3 1 eaefab185f12b27c02ba0ae185ff810fb357bc41
+                    3600  IN  SSHFP   3 2 68be9148809217511beba609ea94f553faf232a2a8d8ff8f123793ef44015bf8
+                    3600  IN  SSHFP   4 1 c594c8d387590d94c6e4ee57d1c15806fa1fe656
+                    3600  IN  SSHFP   4 2 0530eb462892b1f2e99f51cb60e4fe06f57cb8225854c16ff9b4bceb675e297b
+                    3600  IN  SSHFP   1 1 9c7e1f05c2cacf380990ff37d0b8649d2ea6ada8
+                    3600  IN  SSHFP   1 2 51a4bb75faa520fd8687dd422e129b0f3c11960e5d08304d09f3fe68c3cd4b70
+                    3600  IN  LOC     40 42 43.678 N 74 0 25.963 W 10m 10m 100m 10m
+
+pdostal             3600  IN  A       172.22.149.117
+                    3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
+                    3600  IN  SSHFP   2 2 56ecab7692d15fe952ee6b624a408bd38accd4453a5b6bd9764cc1a0b5c6bb8a
+                    3600  IN  SSHFP   3 1 47d570b263845d31287e0a3b75e61cd1506165ae
+                    3600  IN  SSHFP   3 2 6e4f20611fd25baeb01b1f3a70ee9ccc3a795d490a3db28e6b1198d559262591
+                    3600  IN  SSHFP   4 1 675ccf3ab0f266690877d7009a9c698f5e87f6f6
+                    3600  IN  SSHFP   4 2 5d8ed64c96ff02c6811a1d30e03499f7795f9ad2329c5b68df49bb8e2c2a1f8a
+                    3600  IN  SSHFP   1 1 16c87c77402e420b2568d044cb80afe4a1e46d32
+                    3600  IN  SSHFP   1 2 978baccfe09f00f8238ae94c64a3cea23c6dbb72a27eb3213e980a3730c8049c
+                    3600  IN  LOC     41 38 2.178 N 25 21 32.753 E 246m 10m 100m 10m
+
+home                3600  IN  A       172.22.149.118
+                    3600  IN  SSHFP   2 1 6745A9A2CAD35DE3D81A43AC375526160B5050EA
+                    3600  IN  SSHFP   2 2 132DA336CCB69370661FF5FBBE74B2EDE6A4FCD151AE415B723D6A2FDE60D9EC
+                    3600  IN  SSHFP   1 1 D79902CD27D6E3DEA8289A851C029D98EB8A8E66
+                    3600  IN  SSHFP   1 2 E75AA9AB2960618F3CD0B91410C20F5789C6C3934EF3F4AAAFFFB7AAEC3DFF19
+                    3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
+
+gw                  3600  IN  A       172.22.149.127
+                    3600  IN  SSHFP   2 1 d0a741a915472717ff52edc8a8f1cb6adbaf7ffb
+                    3600  IN  SSHFP   2 2 9b1d5ab57b2446c40e928f76cc21ead6b93fada3960eed107a670de03748c1de
+                    3600  IN  SSHFP   3 1 836767e2f3250513f88331a1c6e565c8f5e98dbb
+                    3600  IN  SSHFP   3 2 d3374d7570d2ccfe418637e9cfd65b789c970dbcbdc1865a04a2bbf91b81ddfe
+                    3600  IN  SSHFP   4 1 0281510f0c9688631cf750d9d95b2442cb9c4a42
+                    3600  IN  SSHFP   4 2 226b90fa7321cf85c80c16252856764de418154204178d95992fab7c11e50290
+                    3600  IN  SSHFP   1 1 2a158c64cd040d0b58bdfdbe9297fc9d6ff7cb87
+                    3600  IN  SSHFP   1 2 b2639035839aca9d751ba207ce687ec06e0566f4e8a82c0bb8226d0962cda6ec
+                    3600  IN  LOC     50 5 11.341 N 14 24 40.95 E 180m 10m 100m 10m
