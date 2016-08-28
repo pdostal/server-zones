@@ -9,4 +9,4 @@ Deploy to master server
 ## Networks:
 - 27.27.172.in-addr.arpa.
 - 26.26.172.in-addr.arpa.
-- 149.22.172.in-addr.arpa
+- 28/149.22.172.in-addr.arpa
