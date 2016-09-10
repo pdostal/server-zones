@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.dn42. pdostal.pdostal.dn42. (
-                                        2016082703
+                                        2016091001
                                         3600
                                         900
                                         1814400
@@ -17,7 +17,6 @@ $TTL                3600
 ;; EMAIL ;;
 ;;;;;;;;;;;
                     3600  IN  MX      10 cucumber.pdostal.dn42.
-                    3600  IN  MX      20 grape.pdostal.dn42.
 
 ;;;;;;;;;;;;
 ;; CNAMES ;;
