@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2016081301
+                                        2016120301
                                         3600
                                         900
                                         1814400
@@ -115,7 +115,7 @@ coconut             3600  IN  AAAA    2001:19f0:5001:1e0::1
                     3600  IN  SSHFP   1 2 ef70d8b24028b2366bf834eff2a6ea4a0d89e1c3d12a32dbfbfd868af8f8930c
                     3600  IN  LOC     52 22 38.429 N 4 56 12.978 E 2m 10m 100m 10m
 
-habanero            3600  IN  AAAA    2001:19f0:5001:1e0::1
+habanero            3600  IN  AAAA    2001:19f0:6c01:237::1
                     3600  IN  A       108.61.171.217
                     3600  IN  SSHFP   2 1 4905b510d32a409c5621aee2eb1037672c578846
                     3600  IN  SSHFP   2 2 c78d9ada6a72bcb9dc834f1dca7d3159b74c9146959da72c61c63dba663a77ae
