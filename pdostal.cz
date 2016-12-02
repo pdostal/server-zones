@@ -105,6 +105,17 @@ peas                3600  IN  AAAA    2002:5102:f5fa::1
                     3600  IN  SSHFP   1 2 b2639035839aca9d751ba207ce687ec06e0566f4e8a82c0bb8226d0962cda6ec
                     3600  IN  LOC     50 5 11.341 N 14 24 40.95 E 180m 10m 100m 10m
 
+coconut             3600  IN  AAAA    2001:19f0:5001:1e0::1
+                    3600  IN  A       45.63.41.126
+                    3600  IN  SSHFP   3 1 6ba35d26cce9738c8dbe80f046b763f3bf9121a1
+                    3600  IN  SSHFP   3 2 643293ca200be923cdd93d4cc9111805a38ee62e7c2a949e01aa72447d1aa69e
+                    3600  IN  SSHFP   4 1 ad85c1bd7d13f72d719efcdd310cf065f1dc27a1
+                    3600  IN  SSHFP   4 2 b45c183af11355dd402b5c28e2d15ecbf34d64508d83ec809eb27bc6088b7fc7
+                    3600  IN  SSHFP   1 1 07dd719f23efca45adc6c613ebe2a4acb635fbeb
+                    3600  IN  SSHFP   1 2 ef70d8b24028b2366bf834eff2a6ea4a0d89e1c3d12a32dbfbfd868af8f8930c
+                    3600  IN  LOC     52 22 38.429 N 4 56 12.978 E 2m 10m 100m 10m
+
+
 pdostal             3600  IN  AAAA    2001:470:1f1a:42f::2
                     3600  IN  A       151.237.80.226
                     3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
