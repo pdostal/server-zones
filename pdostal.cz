@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2016120801
+                                        2016120803
                                         3600
                                         900
                                         1814400
@@ -9,7 +9,8 @@ $TTL                3600
                     86400 IN  NS      cucumber.pdostal.cz.
                     86400 IN  NS      grape.pdostal.cz.
 
-                    3600  IN  CNAME   habanero.pdostal.cz.
+                    3600  IN  AAAA    2001:19f0:6c01:237::1
+                    3600  IN  A       108.61.171.217
 
                     3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
 
