@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2016120803
+                                        2017011501
                                         3600
                                         900
                                         1814400
@@ -71,16 +71,6 @@ cucumber            3600  IN  AAAA    2001:470:1f0a:6e8::2
                     3600  IN  SSHFP   1 2 af0f25dd48c4080772a80d104e573f1b3443895d4b8c0a1e76e80ee5922430ac
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
 
-sorrel              3600  IN  AAAA    2a03:b0c0:3:d0::22:1
-                    3600  IN  A       46.101.174.83
-                    3600  IN  SSHFP   3 1 38b5d9a4c6d13dd56c9873ec8aaa1929a98f5478
-                    3600  IN  SSHFP   3 2 d4fba04a6e5476396f3cb324dd01274c8c85584803ef8bff78ae2d187df222d5
-                    3600  IN  SSHFP   2 1 a79dfe6adf618273a447d683fa5f17a15874e05f
-                    3600  IN  SSHFP   2 2 d7191dca3a1425eb6c044d3c7bcf9fd9dfab9dbde18ed8e8b18588018e2f0890
-                    3600  IN  SSHFP   1 1 6232735c6f5af2c0a642a761e11dd85d90322736
-                    3600  IN  SSHFP   1 2 b23eb95d4fcc3a33ba650a679d79619fbb019f9800ec51bc37fe0b3829a6d5e5
-                    3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
-
 grape               3600  IN  AAAA    2604:a880:800:10::a6:9001
                     3600  IN  A       159.203.139.122
                     3600  IN  SSHFP   2 1 071a3c9e6c14dd6279017cc5af4164e6bf911f55
@@ -126,6 +116,29 @@ habanero            3600  IN  AAAA    2001:19f0:6c01:237::1
                     3600  IN  SSHFP   1 1 aedfa73a866031ee12455560f4a6b7865aeffa34
                     3600  IN  SSHFP   1 2 a68e58bd22690e9cf8f1363838ef80951b4b04c3e127674057293305d2ceb76a
                     3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
+
+kartofky            3600  IN  AAAA    2001:19f0:5:222::1
+                    3600  IN  A       45.76.11.205
+                    3600  IN  SSHFP   2 1 46767cdbe52df76f314dbd151380619a587e671b
+                    3600  IN  SSHFP   2 2 a6c6b26cb264aa6fb1a849c2969bdc4d5c7360e361ee237a3fd785e03955f62c
+                    3600  IN  SSHFP   3 1 921c214e625939bbda2e32f1b42749af67599bec
+                    3600  IN  SSHFP   3 2 0560622b37391d9a1b31949f8eb2190387f0eaedc7c76ad6241e4a0caaedab38
+                    3600  IN  SSHFP   4 1 be12bd37f6d26602836f8025b798a602fe2ec74e
+                    3600  IN  SSHFP   4 2 c276ecd36eae63d33e9626a9b219d7912408b095048f80946d6db2b4e64d2d51
+                    3600  IN  SSHFP   1 1 92d031aeac62366351074e1b797f122dfbea5800
+                    3600  IN  SSHFP   1 2 9836fffdebc8a6c3e7b445a04962cdfae6f03f66bf7f6dcc72652343a42cd5d4
+                    3600  IN  LOC     40 45 47.265 N 74 0 37.121 W 0m 10m 100m 10m
+
+caykur              3600  IN  A       185.65.206.134
+                    3600  IN  SSHFP   2 1 d1fa1c01f8561d40cf797b64073c3389ec877c1c
+                    3600  IN  SSHFP   2 2 2c31286835e1f4794f9c2248a7a19d9cdb157527a5a6ba23bbd8671ad08ca8b4
+                    3600  IN  SSHFP   3 1 df714237bc8502ccf52559f8861a62dc6869fde7
+                    3600  IN  SSHFP   3 2 d1a4fb34d209fcfdd1af0c8a0910702def0a95bb26e302b9cc8ee4c8dbbd7c9d
+                    3600  IN  SSHFP   4 1 763fb8770b6fdad09bf21af65851acd0ed84435a
+                    3600  IN  SSHFP   4 2 9b47a2c7f21361c5934a2554ab5d26506f4e48c48a261066476f336d9c140fef
+                    3600  IN  SSHFP   1 1 9f68fccabfb84f42ffdee7d186e35fc9d056167f
+                    3600  IN  SSHFP   1 2 b62c47caab0ef0c41b76a563709d113d5b406de9f87795b880436d64e5fb571f
+                    3600  IN  LOC     41 1 11.782 N 28 58 23.198 E 0m 10m 100m 10m
 
 
 pdostal             3600  IN  AAAA    2001:470:1f1a:42f::2
