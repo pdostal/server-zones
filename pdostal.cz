@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017011601
+                                        2017020201
                                         3600
                                         900
                                         1814400
@@ -54,6 +54,7 @@ tmp                 3600  IN  CNAME   habanero.pdostal.cz.
 global              3600  IN  CNAME   habanero.pdostal.cz.
 external            3600  IN  CNAME   habanero.pdostal.cz.
 grafana             3600  IN  CNAME   habanero.pdostal.cz.
+fingerprinter       3600  IN  CNAME   habanero.pdostal.cz.
 observium           3600  IN  CNAME   cucumber.pdostal.cz.
 icinga              3600  IN  CNAME   cucumber.pdostal.cz.
 
