@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017020701
+                                        2017031301
                                         3600
                                         900
                                         1814400
@@ -130,6 +130,19 @@ dump                3600  IN  AAAA    2a02:c205:2010:7573::1
                     3600  IN  SSHFP   1 1 e8963f2b41496944e0c3667f523d5a2befd59939
                     3600  IN  SSHFP   1 2 1d96046021a6a3eb0e4843bff9b56db94874b9788f8ae84922ec179626f0c9f0
                     3600  IN  LOC     48 7 40.16 N 11 36 13.408 E 534m 10m 100m 10m
+
+
+huis                3600  IN  AAAA    2a01:430:17:1::ffff:1142
+                    3600  IN  A       37.205.8.96
+                    3600  IN  SSHFP   2 1 76c3a72b163c7ef6a4954df1cd757a4526fde1f5
+                    3600  IN  SSHFP   2 2 bc0f323aacafda9454e3484d2f94d6a9771f204b61433d355ce9f5ba7f12b560
+                    3600  IN  SSHFP   3 1 6c910ab2a4e7dee40e39a907305a333c1e5d78d7
+                    3600  IN  SSHFP   3 2 cdfbe96b67203c7639d455f1293a938f58047ab61cea7854125b9d96ad818c92
+                    3600  IN  SSHFP   4 1 fc473010cd553e73d7abc3ff596d03a13110f9db
+                    3600  IN  SSHFP   4 2 e22dd395b148f66dd1a213009cbe6047f61ac5759e7d38d4c7ed51b36971da36
+                    3600  IN  SSHFP   1 1 c687df027e0e999df75dcc189050c7cc26774cb9
+                    3600  IN  SSHFP   1 2 dd1a780804c06593fbd380107b95695c0dcade456555411b399fc6f9b96fdc1d
+                    3600  IN  LOC     50 4 9.982 N 14 27 46.479 E 223m 10m 100m 10m
 
 
 pdostal             3600  IN  AAAA    2001:470:1f1a:42f::2
