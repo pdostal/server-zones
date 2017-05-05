@@ -1,6 +1,6 @@
 $TTL                3600
 @                   3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017050101
+                                        2017050501
                                         3600
                                         900
                                         1814400
@@ -50,12 +50,12 @@ mail                3600  IN  MX      20 in2-smtp.messagingengine.com.
 ;;;;;;;;;;;;
 ;; CNAMES ;;
 ;;;;;;;;;;;;
-www                 3600  IN  CNAME   habanero.pdostal.cz.
-tmp                 3600  IN  CNAME   habanero.pdostal.cz.
-global              3600  IN  CNAME   habanero.pdostal.cz.
-external            3600  IN  CNAME   habanero.pdostal.cz.
-grafana             3600  IN  CNAME   habanero.pdostal.cz.
-fingerprinter       3600  IN  CNAME   habanero.pdostal.cz.
+www                 3600  IN  CNAME   dump.pdostal.cz.
+tmp                 3600  IN  CNAME   dump.pdostal.cz.
+global              3600  IN  CNAME   dump.pdostal.cz.
+external            3600  IN  CNAME   dump.pdostal.cz.
+grafana             3600  IN  CNAME   dump.pdostal.cz.
+fingerprinter       3600  IN  CNAME   dump.pdostal.cz.
 observium           3600  IN  CNAME   cucumber.pdostal.cz.
 icinga              3600  IN  CNAME   cucumber.pdostal.cz.
 
