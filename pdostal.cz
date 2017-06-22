@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017061501
+                                        2017062301
                                         3600
                                         900
                                         1814400
@@ -57,8 +57,8 @@ external              3600  IN  CNAME   dump.pdostal.cz.
 roboclown             3600  IN  CNAME   dump.pdostal.cz.
 grafana               3600  IN  CNAME   dump.pdostal.cz.
 fingerprinter         3600  IN  CNAME   dump.pdostal.cz.
-observium             3600  IN  CNAME   cucumber.pdostal.cz.
-icinga                3600  IN  CNAME   cucumber.pdostal.cz.
+observium             3600  IN  CNAME   uzel.pdostal.cz.
+icinga                3600  IN  CNAME   uzel.pdostal.cz.
 
 shvirt1.sharryeurope  3600  IN  AAAA    2a02:2b88:2:1::5775:1
                       3600  IN  A       89.221.211.123
