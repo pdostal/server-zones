@@ -1,6 +1,6 @@
 $TTL                  3600
-@                     3600  IN  SOA     cucumber.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017062301
+@                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
+                                        2017062801
                                         3600
                                         900
                                         1814400
@@ -124,10 +124,9 @@ carambola             3600  IN  AAAA    2001:470:734b:27::6
                       3600  IN  LOC     51 2 36.522 N 3 42 52.277 E 8m 10m 100m 10m
 
 home                  3600  IN  AAAA    2002:d404:8fab::1
-                      3600  IN  A       212.4.143.171
+                      3600  IN  A       31.31.231.54
                       3600  IN  SSHFP   2 1 6745A9A2CAD35DE3D81A43AC375526160B5050EA
                       3600  IN  SSHFP   2 2 132DA336CCB69370661FF5FBBE74B2EDE6A4FCD151AE415B723D6A2FDE60D9EC
                       3600  IN  SSHFP   1 1 D79902CD27D6E3DEA8289A851C029D98EB8A8E66
                       3600  IN  SSHFP   1 2 E75AA9AB2960618F3CD0B91410C20F5789C6C3934EF3F4AAAFFFB7AAEC3DFF19
                       3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
-
