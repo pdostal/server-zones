@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017071201
+                                        2017062801
                                         3600
                                         900
                                         1814400
@@ -59,9 +59,6 @@ grafana               3600  IN  CNAME   dump.pdostal.cz.
 fingerprinter         3600  IN  CNAME   dump.pdostal.cz.
 observium             3600  IN  CNAME   uzel.pdostal.cz.
 icinga                3600  IN  CNAME   uzel.pdostal.cz.
-swodka                3600  IN  CNAME   dump.pdostal.cz.
-petrsimcik            3600  IN  CNAME   dump.pdostal.cz.
-phpmyadmin.petrsimcik 3600  IN  CNAME   dump.pdostal.cz.
 
 shvirt1.sharryeurope  3600  IN  AAAA    2a02:2b88:2:1::5775:1
                       3600  IN  A       89.221.211.123
@@ -133,3 +130,12 @@ home                  3600  IN  AAAA    2002:d404:8fab::1
                       3600  IN  SSHFP   1 1 D79902CD27D6E3DEA8289A851C029D98EB8A8E66
                       3600  IN  SSHFP   1 2 E75AA9AB2960618F3CD0B91410C20F5789C6C3934EF3F4AAAFFFB7AAEC3DFF19
                       3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
+
+uzel.vpn              3600  IN  A       172.22.149.113
+huis.vpn              3600  IN  A       172.22.149.114
+dump.vpn              3600  IN  A       172.22.149.115
+pdostal.vpn           3600  IN  A       172.22.149.116
+hub.vpn               3600  IN  A       172.22.149.117
+home.vpn              3600  IN  A       172.22.149.118
+carambola.vpn         3600  IN  A       172.22.149.119
+gw.vpn                3600  IN  A       172.22.149.127
