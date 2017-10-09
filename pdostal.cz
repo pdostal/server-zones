@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017062801
+                                        2017100901
                                         3600
                                         900
                                         1814400
@@ -62,6 +62,7 @@ icinga                3600  IN  CNAME   uzel.pdostal.cz.
 
 shvirt1.sharryeurope  3600  IN  AAAA    2a02:2b88:2:1::5775:1
                       3600  IN  A       89.221.211.123
+phpmyadmin.petrsimcik 3600  IN  CNAME   dump.pdostal.cz.
 
 ;;;;;;;;;;;
 ;; CORE ;;;
