@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017100901
+                                        2017123101
                                         3600
                                         900
                                         1814400
@@ -8,7 +8,6 @@ $TTL                  3600
 
                       86400 IN  NS      dump.pdostal.cz.
                       86400 IN  NS      huis.pdostal.cz.
-                      86400 IN  NS      uzel.pdostal.cz.
 
                       3600  IN  AAAA    2a02:c205:2010:7573::1
                       3600  IN  A       93.104.210.198
@@ -57,8 +56,6 @@ external              3600  IN  CNAME   dump.pdostal.cz.
 roboclown             3600  IN  CNAME   dump.pdostal.cz.
 grafana               3600  IN  CNAME   dump.pdostal.cz.
 fingerprinter         3600  IN  CNAME   dump.pdostal.cz.
-observium             3600  IN  CNAME   uzel.pdostal.cz.
-icinga                3600  IN  CNAME   uzel.pdostal.cz.
 
 shvirt1.sharryeurope  3600  IN  AAAA    2a02:2b88:2:1::5775:1
                       3600  IN  A       89.221.211.123
@@ -92,19 +89,6 @@ huis                  3600  IN  AAAA    2a01:430:17:1::ffff:1142
                       3600  IN  SSHFP   1 2 dd1a780804c06593fbd380107b95695c0dcade456555411b399fc6f9b96fdc1d
                       3600  IN  LOC     50 4 9.982 N 14 27 46.479 E 223m 10m 100m 10m
 
-uzel                  3600  IN  AAAA    2001:470:1f0a:6e8::2
-                      3600  IN  A       45.76.91.55
-                      3600  IN  SSHFP   2 1 682f554d22755e8c61786e68e1ac170b3a4791d5
-                      3600  IN  SSHFP   2 2 956ecdcd98db36dc554eb4a7e7e7a5a9c752985438ff506ce35f82f51e075369
-                      3600  IN  SSHFP   3 1 375c38cd5b31b88f4d267b0112fb49e1886f1ddc
-                      3600  IN  SSHFP   3 2 14fa9581b1706f2091c46a4fae43c8e3dc80ff7da0e4230c0ee747cdad56b62b
-                      3600  IN  SSHFP   4 1 f3c1ec083367cda4f239a4348c0eeb1dbf68d44d
-                      3600  IN  SSHFP   4 2 f4fc1b900d665c3ae292e5e18fcf90c37982de29d20a6c6404eed0c465d535fa
-                      3600  IN  SSHFP   1 1 eb5ab2c730680714a1ec39e5f578411052cab140
-                      3600  IN  SSHFP   1 2 a21706acbff8e5f80ba07160510379f549ac38b71237d1220404b155f9759fb8
-                      3600  IN  LOC     50 6 28.614 N 8 41 5.078 E 98m 10m 100m 10m
-
-
 pdostal               3600  IN  AAAA    2001:470:1f1a:42f::2
                       3600  IN  A       151.237.80.226
                       3600  IN  SSHFP   2 1 aeeb3e7c5ddec3e7a075bacf3cce1871bf05f5e5
@@ -132,7 +116,6 @@ home                  3600  IN  AAAA    2002:d404:8fab::1
                       3600  IN  SSHFP   1 2 E75AA9AB2960618F3CD0B91410C20F5789C6C3934EF3F4AAAFFFB7AAEC3DFF19
                       3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
 
-uzel.vpn              3600  IN  A       172.22.149.113
 huis.vpn              3600  IN  A       172.22.149.114
 dump.vpn              3600  IN  A       172.22.149.115
 pdostal.vpn           3600  IN  A       172.22.149.116

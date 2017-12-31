@@ -1,7 +1,7 @@
 $TTL    3600
 $ORIGIN 149.22.172.in-addr.arpa.
 149.22.172.in-addr.arpa. 3600  SOA dump.pdostal.cz zonemaster.pdostal.cz (
-  2017091601 ; serial
+  2017123101 ; serial
   3600 ; refresh ( 1h )
   900 ; retry ( 0h )
   1814400 ; expire ( 504h )
@@ -9,8 +9,7 @@ $ORIGIN 149.22.172.in-addr.arpa.
 
 149.22.172.in-addr.arpa. 3600  NS dump.pdostal.cz. ;
 149.22.172.in-addr.arpa. 3600  NS huis.pdostal.cz. ;
-149.22.172.in-addr.arpa. 3600  NS uzel.pdostal.cz. ;
-113.149.22.172.in-addr.arpa. 3600  PTR uzel.vpn.pdostal.cz. ; 172.22.149.113
+
 114.149.22.172.in-addr.arpa. 3600  PTR huis.vpn.pdostal.cz. ; 172.22.149.114
 115.149.22.172.in-addr.arpa. 3600  PTR dump.vpn.pdostal.cz. ; 172.22.149.115
 116.149.22.172.in-addr.arpa. 3600  PTR pdostal.vpn.pdostal.cz. ; 172.22.149.116
