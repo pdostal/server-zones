@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2017123101
+                                        2018031001
                                         3600
                                         900
                                         1814400
@@ -88,6 +88,19 @@ huis                  3600  IN  AAAA    2a01:430:17:1::ffff:1142
                       3600  IN  SSHFP   1 1 c687df027e0e999df75dcc189050c7cc26774cb9
                       3600  IN  SSHFP   1 2 dd1a780804c06593fbd380107b95695c0dcade456555411b399fc6f9b96fdc1d
                       3600  IN  LOC     50 4 9.982 N 14 27 46.479 E 223m 10m 100m 10m
+
+mashina               3600  IN  AAAA    2a02:c207:2017:849::1
+                      3600  IN  A       213.136.89.89
+                      3600  IN SSHFP    1 1 98ae337aa2729faf44123bb35500fe358f5899d9
+                      3600  IN SSHFP    1 2 bff5fea442f0827b0eac5f5c58748c397a658d791458e5fe37e117986ca9dfc7
+                      3600  IN SSHFP    2 1 def793b67798181e03c95a9db17ec216dfdcba9e
+                      3600  IN SSHFP    2 2 14e33695576e917bd1d340762ebca7ec627bbe9952cadc9917dd38225e9168bc
+                      3600  IN SSHFP    3 1 596a771cd09b48f63023bf3a7dca4ff1a30bfbf5
+                      3600  IN SSHFP    3 2 94a6a06dd0e10a5be97b15e75949b8d608447507e6dc81e3e3da5e6e02821ead
+                      3600  IN SSHFP    4 1 9b2e873ae99c6e91f7aa7b79a5e7953e4da5df5b
+                      3600  IN SSHFP    4 2 f6c6b549b9b9f57182b5a46555c2f063ebc7817d51103d7d32e37b61e61c8133
+                      3600  IN LOC      48 7 40.16 N 11 36 13.408 E 534m 10m 100m 10m
+
 
 pdostal               3600  IN  AAAA    2001:470:1f1a:42f::2
                       3600  IN  A       151.237.80.226
