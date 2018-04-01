@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2018031001
+                                        2018040101
                                         3600
                                         900
                                         1814400
@@ -9,8 +9,8 @@ $TTL                  3600
                       86400 IN  NS      dump.pdostal.cz.
                       86400 IN  NS      huis.pdostal.cz.
 
-                      3600  IN  AAAA    2a02:c205:2010:7573::1
-                      3600  IN  A       93.104.210.198
+                      3600  IN  AAAA    2a02:c207:2017:849::1
+                      3600  IN  A       213.136.89.89
 
                       3600  IN  LOC     49 33 18.749 N 15 56 28.724 E 591m 10m 100m 10m
 
