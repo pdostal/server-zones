@@ -1,6 +1,6 @@
 $TTL                  3600
 @                     3600  IN  SOA     dump.pdostal.cz. zonemaster.pdostal.cz. (
-                                        2018040203
+                                        2018060201
                                         3600
                                         900
                                         1814400
@@ -58,6 +58,7 @@ fingerprinter         3600  IN  CNAME   mashina.pdostal.cz.
 hub.overwatch         3600  IN  CNAME   mashina.pdostal.cz.
 web.overwatch         3600  IN  CNAME   mashina.pdostal.cz.
 cloud                 3600  IN  CNAME   mashina.pdostal.cz.
+portainer             3600  IN  CNAME   mashina.pdostal.cz.
 
 shvirt1.sharryeurope  3600  IN  AAAA    2a02:2b88:2:1::5775:1
                       3600  IN  A       89.221.211.123
